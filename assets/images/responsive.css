@@ -1,0 +1,1020 @@
+/*************Responsive Styles*****************/
+/*************Mobile-screen-only*****************/
+@media only screen and (max-width: 767px) and (min-width: 318px) {
+.ft-71{
+    font-size: 50px;
+}
+.ft-35{
+    font-size: 35px;
+}
+.ft-46{
+    font-size: 40px;
+}
+.blue-banner button, .pch-blue-banner-contents button {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.users-box {
+    padding: 45px 15px 20px 15px;
+}
+.blue-banner{
+	display: block;
+}
+
+.about-main-content-section img {
+    height: 350px;
+}
+.club-center-image-set img{
+    max-width: 100%;
+}
+.demo-banner{
+    height: unset;
+    padding-bottom: 45px;
+}
+.demo-container .demo-left-sec {
+    padding: 30px 15px 30px 15px;
+}
+.demo-container {
+    margin: 0px 15px;
+    width: 95.5%;
+}
+.demo-right-sec {
+    border-radius: 0px 0px 10px 10px;
+}
+.demo-right-sec {
+    min-height: 290px;
+}
+.demo-right img {
+    right: 15px !important;
+    width: 40%;
+}
+.dashboard-wrapper .pull-right {
+    position: initial;
+    width: 100%;
+}
+.event-main-buttons .flex {
+    display: flex !important;
+    justify-content: space-between;
+}
+.event-main-buttons button {
+    width: 100%;
+}
+.upload-main-wrapper{
+    width: 92%;
+}
+.event-main-buttons .flex a{
+    width: 50%;
+}
+.event-main-buttons .flex .main-wrapper{
+    width: 50%;
+}
+.upload-wrapper .file-upload-text {
+    left: 45px;
+}
+.upload-wrapper{
+    padding: 11px 15px;
+}
+}
+/***************iPhone Portrait**************/
+
+@media only screen and (max-width: 479px) and (min-width: 318px) {
+.home-banner-right-sec {
+    position: initial;
+    text-align: end;
+}
+.demo-container {
+    width: 92%;
+}
+.demo-left-sec p {
+    padding-right: 0px;
+}
+.demo-right img {
+    width: 75% !important;
+}
+.contact__form .btn {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.blue-download-app-section button {
+    padding: 3px 15px;
+    font-size: 14px;
+}
+.blue-download-app-section .download-left-sec{
+    padding-right: 30px;
+}
+.home-banner-right {
+    padding-left: 0;
+}
+.home-banner-left p {
+    padding-right: 0px;
+}
+.home-banner-right-sec img, .users-left-section img {
+    height: 510px !important;
+}
+.users-left-section {
+    position: inherit;
+    top: -35px;
+}
+.app-features-row {
+    padding-top: 30px;
+}
+.app-feature-image-sec {
+    min-height: 360px;
+}
+section.types-of-users {
+    padding-bottom: 60px;
+}
+.how-it-work-right-sec img {
+    width: 30% !important;
+   height: 820px;
+}
+section.how-it-works-section {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.how-it-works-left p {
+    padding-top: 20px;
+}
+.how-it-works-section .row {
+    padding-top: 30px;
+}
+.hm-half-section .container {
+    top: 60px;
+}
+.half-boxes {
+    padding: 40px 15px 25px 15px;
+}
+.download-right-sec img {
+    width: 180px;
+    right: 0;
+    bottom: -38px;
+}
+.download-left-sec {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.download-logos img{
+	width: 50%;
+}
+.footer-menu, .footer-menu ul, .social-footer-menu ul {
+    display: block;
+}
+.footer-menu ul {
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.footer-menu li {
+    padding: 10px 0px;
+}
+.social-footer-menu li {
+    padding-left: 0px;
+}
+.download-app-section {
+    margin-top: 20px;
+}
+.testimonial-boxes {
+    padding: 0px 15px;
+}
+.about-banner-right-sec img{
+    position: initial;
+}
+.inner-page-banner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.blue-banner {
+    min-height: 850px;
+}
+.home-banner-left{
+    padding-bottom: 50px;
+}
+.about-main-content-section {
+    padding-top: 60px;
+}
+.about-main-content-right {
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.blue-download-app-section .download-right-sec{
+    position: absolute;
+    right: 0;
+    bottom: 57px;
+}
+.download-app-section {
+    margin-top: 50px;
+}
+.club-mid-section1 {
+    padding: 60px 0px 0px 0px;
+}
+.club-center-image-set {
+    margin-left: 0px;
+}
+.club-mid-section1-right {
+    padding-right: 15px;
+}
+.club-mid-section1-center {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.club-blue-section {
+    padding: 60px 0px 40px 0px;
+    margin-bottom: 60px;
+    max-height: unset;
+}
+.customisable-mobile {
+    position: inherit;
+    top: 70px;
+    max-width: 80%;
+    right: -25px;
+    margin-bottom: 50px;
+}
+.coach-blue2-image{
+    width: 91%;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.customisable-mobile img{
+    width: 100%;
+}
+.flex {
+    display: block;
+}
+.club2-center-image-set1 {
+    margin: 20px 0px 65px 22px;
+}
+.coach-section2 .club2-center-image-set1{
+    margin-top: 40px;
+}
+.club-screenshot {
+    margin-left: 0px;
+}
+.club-mid-section2 {
+    padding: 15px 0px 60px 0px;
+}
+.club-blue-texts .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.club-blue-section img {
+    max-width: 100%;
+}
+.club-blue-left-image-abs img {
+    left: 15px;
+    max-width: 60% !important;
+    top: 51px;
+}
+.club-blue-right{
+    padding-top: 40px;
+}
+.club-blue-left-image, .club-blue-right-image {
+    padding-top: 30px;
+}
+.club-blue-right-image-abs img {
+    top: -10px;
+    right: 11px;
+    width: 30%;
+}
+.customisable-contents {
+    padding-left: 15px;
+    padding-top: 50px;
+}
+.club-customisable {
+    padding-bottom: 0px;
+}
+.payment-web{
+    max-width: 85%;
+    margin-left: 15px;
+    top: 50px;
+}
+.payment-web img{
+    max-width: 100%;
+}
+.payment-right img{
+    max-width: 100%;
+}
+.coach-section1 {
+    padding: 60px 0px 0px 0px;
+}
+.coach-sec1-left img {
+    width: 100%;
+    height: 370px;
+}
+.coach-section1-mobile {
+    margin-left: 0px;
+    margin-top: 40px;
+}
+.coach-schedule-screenshot {
+    margin-left: -230px;
+}
+.coach-setion2-right {
+    margin-left: 0;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+.coach-setion2-right img, .coach3-left img, .payment-right-main img {
+    width: 100%;
+    height: 350px;
+}
+.coach-section3 {
+    padding: 0px 0px;
+}
+.coach-section2 .flex {
+    margin-top: 25px;
+}
+.coach-blue-right {
+    padding-left: 15px;
+    padding-top: 70px;
+}
+.home-banner-right img {
+    width: 36% !important;
+}
+.download-app-banner .home-banner-right::after {
+    bottom: -85px;
+    left: 15px;
+}
+.download-app-banner a img {
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+.feature-banner .home-banner-left p {
+    padding-right: 0px;
+}
+.feature-tab-image img {
+    margin-top: -150px;
+}
+.feature-section1 img {
+    margin-left: 0px;
+    width: 100%;
+}.feature-section1 img, .feature-section2 img{
+    margin-left: 0px;
+    width: 100%;
+}
+.feature-section1 .customisable-contents {
+    margin-top: -20px;
+}
+.feature-text-section {
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+.invite-club-right {
+    margin-top: -277px;
+}
+.feature-section2 {
+    padding-bottom: 60px;
+}
+.invite-parents-sec, .invite-parents-mid {
+    display: block;
+}
+.invite-parents-mid img{
+    max-width: 100%;
+}
+.invite-parents-left, .invite-parents-right {
+    width: 100%;
+}
+.invite-parents-mid {
+    top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+.invite-parents-mid-phone {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+.invite-parents-right div {
+    padding: 40px 15px 25px 15px;
+}
+.feature-image-sec img {
+    height: auto;
+}
+.feature-three-each {
+    padding: 20px  0px;
+}
+.manage-admin-section img {
+    height: 265px;
+    max-width: 100%;
+    object-fit: contain;
+}
+.manage-admin-box {
+    padding: 30px 15px;
+    max-width: 100%;
+}
+.feature-three-sec {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.feature-three-sec h3 {
+    padding-top: 20px;
+}
+.patents-banner .home-banner-left p {
+    padding-right: 0px;
+}
+.rsvp-sec img {
+    height: 300px;
+    max-width: 100%;
+}
+.account-pricing-section button{
+    margin-top: 10px;
+}
+.pricing-box-col {
+    padding: 15px 15px;
+}
+.dashboard-wrapper {
+    padding: 37px 25px 40px 30px;
+}
+}
+    
+/**********************iPhone Landscape*************/
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+.download-right-sec img {
+    bottom: -59px !important;
+    width: 275px;
+}
+.feature-tab-image img {
+    margin-top: -315px !important;
+    width: 74% !important;
+}
+.blue-download-app-section button {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+.download-left-sec .download-logos a img {
+    width: 35% !important;
+}
+.download-app-section {
+    margin-top: 30px;
+}
+.club-blue-right-image-abs img {
+    right: -10px !important;
+}
+.coach-section1-mobile {
+    margin-left: -410px;
+}
+.coach-blue-section img {
+    width: 100%;
+}
+}
+
+
+/*************************iPad Portrait***************/
+
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+.blue-banner {
+    padding-top: 0px;
+}
+
+.demo-container .demo-left-sec, .demo-container .demo-right-sec{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.demo-container .demo-left-sec {
+    padding: 0px 15px 0px 15px;
+}
+.demo-right img {
+    right: 15px !important;
+    width: 100%;
+}
+.contact__form .flex {
+    display: block;
+}
+.contact__form .btn {
+    margin-left: 0px;
+    margin-top: 25px;
+}
+.demo-right-sec{
+    min-height: 80vh;
+}
+.demo-banner{
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+
+
+/**************iPad Landscape Start***************/
+
+@media only screen and ( max-width: 1024px) and (min-width: 986px) {
+.main-header {
+    padding-top: 35px;
+}
+.header-menu li {
+    padding: 0px 8px !important;
+} 
+.header-menu button {
+    margin-left: 10px;
+} 
+.about-main-content-section img {
+    max-width: 95%;
+}
+.blue-download-app-section .download-right-sec img {
+    bottom: -30px;
+    right: 15px;
+}
+}
+
+
+/**************iphone landscap to ipad portrait***************/
+
+@media only screen and (max-width: 985px) and (min-width: 480px) {
+.col-md-6, .col-md-8, .col-md-7, .col-md-5{
+	flex: 0 0 100%;
+    max-width: 100%;
+}
+.dashboard-wrapper {
+    padding: 37px 25px 40px 30px;
+}
+.feature-three-sec h3 {
+    padding-top: 20px;
+}
+.rsvp-sec img {
+    height: 300px;
+    max-width: 100%;
+}
+.account-pricing-section .col-md-4{
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.pricing-box-col {
+    padding: 10px 15px;
+}
+.patents-banner .home-banner-left p {
+    padding-right: 0px;
+}
+.feature-banner .home-banner-left p {
+    padding-right: 0px;
+}
+
+.feature-tab-image img {
+    margin-top: -395px;
+    width: 85% !important;
+}
+.feature-image-sec img {
+    height: auto;
+}
+.feature-three-each {
+    padding: 20px 0px;
+}
+.feature-section1 img, .feature-section2 img {
+    margin-left: 0px;
+    max-width: 100%;
+}
+.feature-text-section {
+    padding-right: 0;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+.feature-section1 {
+    padding: 60px 0px 0px 0px;
+}
+.feature-section2 {
+    padding-bottom: 60px;
+}
+.manage-admin-section img {
+    max-width: 100%;
+    height: 400px;
+}
+.manage-admin-box {
+    margin-top: -370px;
+    padding: 25px 30px;
+    width: 365px;
+}
+.invite-parents-sec img {
+    width: 40%;
+}
+.invite-parents-mid-phone img{
+    width: 70% !important;
+}
+.invite-parents-mid {
+    left: -130px;
+}
+.invite-parents-mid-phone {
+    margin-left: -161px;
+}
+.invite-parents-right div {
+    padding-left: 155px;
+}
+.invite-parents-left {
+    min-height: 55vh;
+}
+.feature-section1 .customisable-contents {
+    margin-top: -15px;
+}
+.manage-admin-section {
+    min-height: 545px;
+}
+.feature-three-sec .center:nth-child(3){
+    margin: 0 auto;
+}
+.download-app-banner {
+    height: 990px;
+}
+.col-md-3, .col-md-4, .col-md-2{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.demo-left-sec p {
+    padding-right: 0px;
+}
+h3 br{
+    display: none;
+}
+.coach-section1 {
+    padding: 60px 0px;
+}
+.coach-section2 .row{
+    display: block;
+}
+.coach-schedule-screenshot {
+    margin-left: -110px;
+}
+.coach-section2 .club-mid-section1-right{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.coach-setion2-right img{
+    width: 100%;
+}
+.coach-setion2-right {
+    margin-left: 0;
+    margin-top: -585px;
+    flex: 0 0 85% !important;
+    max-width: 85% !important;
+    float: right;
+}
+.coach-blue2-image {
+    margin-left: -35px;
+}
+.coach-blue-right {
+    padding-left: 15px;
+    padding-top: 50px;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+.coach-section3 {
+    padding: 0px 0px;
+}
+.payment-right {
+    padding-top: 15px;
+}
+.club-screenshot {
+    margin-left: -10px;
+}
+.coach-section2 .flex {
+    margin-top: 30px;
+}
+.club-blue-section {
+    max-height: unset;
+}
+.club-blue-left-image-abs img {
+    left: 15px;
+    top: 52px;
+}
+.customisable-mobile {
+    right: 15px;
+}
+.customisable-contents {
+    padding-left: 15px;
+    padding-top: 55px;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+.club-customisable {
+    padding-bottom: 0;
+}
+.payment-right img{
+    height: 430px;
+}
+.payment-web {
+    left: 15px;
+    top: 85px;
+}
+.payment-web img{
+    height: unset;
+}
+.club-mid-section1-left img{
+    height: 400px;
+    width: 100%;
+}
+.club-blue-right-image-abs img {
+    top: -10px;
+    right: 100px;
+    width: 25%;
+}
+.club-blue-left-image, .club-blue-right-image {
+    padding-top: 32px;
+}
+.club-blue-left-image{
+    padding-bottom: 45px;
+}
+.club-blue-images {
+    position: inherit;
+}
+.club-blue-texts .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.club-blue-section {
+    padding: 60px 0px 30px 0px;
+    margin-bottom: 60px;
+}
+.club-mid-section1-right {
+    padding-right: 15px;
+    padding-top: 50px;
+}
+.club-mid-section1 {
+    padding: 60px 0px 0px 0px;
+}
+.club-float-right img{
+    width: 50%;
+    float: right;
+    height: 500px;
+}
+.club-mid-section2 {
+    padding: 0px 0px 60px 0px;
+}
+.club-center-image-set {
+    margin-left: 0px;
+}
+.home-banner-right {
+    padding-left: 15px;
+}
+.home-banner-right-sec {
+    top: 425px !important;
+}
+.home-banner-right-sec img, .users-left-section img {
+    height: 580px !important;
+}
+.home-banner-right img {
+    width: 150px !important;
+}
+.types-of-users .common-contents, .how-it-works-top-sec {
+    position: inherit;
+}
+.app-feature-image-sec {
+    min-height: 450px;
+}
+section.how-it-works-section {
+    padding-bottom: 60px;
+}
+.pch-blue-banner-section {
+    min-height: 400px;
+}
+.download-right-sec img {
+    width: 300px;
+    right: 15px;
+    bottom: -44px;
+}
+.download-left-sec {
+    padding-left: 15px;
+    padding-right: 25%;
+}
+.download-left-sec .download-logos a img{
+	width: 40%;
+}
+.social-footer-menu li {
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-top: 15px;
+}
+footer {
+    padding: 30px 0px 30px 0px;
+}
+
+.app-features-row {
+    padding-top: 40px;
+}
+.about-banner-right-sec img{
+    position: initial;
+}
+.inner-page-banner{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.home-banner-left{
+    padding-bottom: 50px;
+}
+.about-main-content-section {
+    padding-top: 60px;
+}
+.about-main-content-right {
+    padding-left: 15px;
+    margin-left: 0px;
+    margin-top: 45px;
+}
+.blue-download-app-section .download-right-sec{
+    position: absolute;
+    right: 0;
+    bottom: 57px;
+}
+.download-app-section {
+    margin-top: 50px;
+}
+}
+
+/**************************************************************/
+@media ( max-width: 1200px) {
+	.container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ft-71{
+		font-size: 50px;
+    line-height: 60px !important;
+	}
+
+
+	}
+/**************************************************/
+@media ( max-width: 1800px) {
+	.home-banner-right img {
+    width: 230px;
+}
+.home-banner-right-sec {
+    top: 150px;
+}
+.home-banner-right-sec img, .users-left-section img {
+    height: 760px;
+}
+.how-it-work-right-sec img {
+    width: 70%;
+    float: right;
+}
+.half-phone-section img {
+    width: 400px;
+}
+.about-banner-right-sec img{
+	width: 100%;
+    right: 0;
+}
+.demo-right img{
+    right: -50px;
+}
+}
+
+/******************************************************/
+@media ( min-width: 1500px) {
+.leagues-done-form-section form .col-md-1, .leagues-done-form-section form .col-md-2{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+}
+
+
+/******************************************************/
+@media only screen and ( max-width: 1250px) and (min-width: 1024px) {
+.main-header {
+    padding-top: 40px;
+}
+.account-pricing-section .col-md-4{
+    margin-left: -95px;
+}
+.pricing-boxes {
+    min-height: 485px;
+}
+.home-banner-right-sec img, .users-left-section img {
+    height: 475px;
+}
+.rsvp-sec img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.club-blue-section.parents-blue-section{
+    margin-bottom: 0px;
+}
+.feature-tab-image img {
+    margin-top: 181px;
+    left: -15px;
+    width: 84% !important;
+}
+.feature-section1 img, .feature-section2 img {
+    margin-left: 0px;
+    max-width: 100%;
+}
+.download-logos img {
+    width: 40%;
+}
+.feature-image-sec img {
+    height: auto;
+}
+.feature-three-each {
+    padding: 0px 0px;
+}
+.invite-parents-right div {
+    padding-left: 335px;
+}
+.download-right-sec img {
+    bottom: -69px;
+}
+.home-banner-right {
+    padding-left: 0;
+}
+.about-banner-right-sec img {
+    top: -265px;
+}
+    .club-mid-section1-right {
+    padding-right: 15px;
+}
+.club-float-right {
+    float: right;
+    text-align: right;
+}
+.club-float-right img{
+    width: 55%;
+    height: 520px;
+}
+.club-blue-texts .col-md-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.club-blue-left-image-abs img {
+    top: 110px;
+    left: 15px;
+    width: 55% !important;
+}
+.club-blue-right-image-abs img {
+   top: 10px;
+    right: 10px;
+    width: 35% !important;
+}
+.club-blue-section img{
+    width: 100%;
+}
+.club-blue-section {
+    min-height: 660px;
+    max-height: 660px;
+    margin-bottom: 160px;
+}
+.coach-setion2-right {
+    margin-left: -272px;
+}
+.coach-section1-mobile {
+    margin-left: -395px;
+}
+.customisable-contents {
+    padding-left: 15px;
+}
+.demo-container {
+    margin: 0px 15px;
+}
+.demo-right img {
+    width: 100%;
+    right: 15px;
+}
+}
+/********************************************************/
+@media only screen and (max-width: 1023px) {
+  #dashboard-main .dashboard-left-menu{
+    display: none;
+}
+.dashboard-mobile{
+    display: block !important; 
+}
+.dashboard-table {
+    display: none;
+}
+.dashboard-mobile .col-md-6, .dashboard-mobile .col-md-8, .dashboard-mobile .col-md-7, .dashboard-mobile .col-md-5 {
+    flex:unset !important;
+    max-width: unset !important;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.profile__name, .profile:after{
+    display: none;
+}
+.action-btn{
+        display: none;
+    }
+    .header-action {
+    padding-right: 35px;
+}
+.profile{
+    right: 10px;
+}
+
+}
+/*********************************************/
+@media only screen and (min-width: 1023px) {
+    #burger{
+        display: none; 
+    }
+    .bell-btn{
+    display: none;
+}
+}
+/******************************************************/
+@media only screen and ( max-width: 1400px) and (min-width: 1250px) {
+    .club-blue-left-image-abs img {
+        top: 110px;
+    left: -40px;
+    width: 70% !important;
+}
+.club-blue-right-image-abs img {
+  top: -10px;
+    right: -250px;
+    width: 50% !important;
+}
+}
