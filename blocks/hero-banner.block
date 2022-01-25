@@ -1,0 +1,16 @@
+
+        <div class="container">
+            <div class="row common-contents">
+                <div class="col-md-6 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">Lorem ipsum dolor sit amet </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <a href="#"><button>Download the App</button></a>
+                </div>
+                <div class="col-md-6 home-banner-right">
+                    <img src="assets/images/mobile-preview.png" alt="mobile-preview">
+                </div>
+            </div>
+        </div>
+        <div class="home-banner-right-sec">
+            <img src="../assets/images/hm-banner-right.png" alt="hm-banner-right">
+        </div>
