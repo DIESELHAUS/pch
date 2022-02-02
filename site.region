@@ -113,7 +113,7 @@
             {.equal? collection.typeName "index"}
               {squarespace.main-content}
                <section class="blue-banner home-banner ">
-                   <squarespace:query collection="hero-banner">
+                   <squarespace:query collection="home-hero-banner">
                     {@|apply hero-banner.block}
                      </squarespace:query>
                    </section>
