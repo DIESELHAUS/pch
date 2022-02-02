@@ -1,9 +1,8 @@
-
         <div class="container">
             <div class="row common-contents">
                 <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">Lorem ipsum dolor sit amet </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                    <p>{body}</p>
                     <a href="#"><button>Download the App</button></a>
                 </div>
                 <div class="col-md-6 home-banner-right">
