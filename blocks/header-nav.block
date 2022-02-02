@@ -1,41 +1,46 @@
-<div class="main-header">
-<div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="header-logo">
-                    <a href="#" class="logo" data-nc-element="branding" data-content-field="site-title">
-                        {.section website}
-                          {.section logoImageUrl}
-                            <img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" />
-                          {.or}
-                            {siteTitle}
-                          {.end}
-                        {.end}
-                      </a>    
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="header-menu">
-                        <ul>
-                            <li class="active"><a href="https://pch-website.dieselhausdev.com/index.html">Home</a></li>
-                            <li class="inner-dropdown"><a href="https://pch-website.dieselhausdev.com/features.html"> users</a>
-                                <div class="inner-menu"> 
-                                    <ul>
-                                       <li><a href="https://pch-website.dieselhausdev.com/features.html"> Event Organizers</a></li>
-                                       <li><a href="https://pch-website.dieselhausdev.com/clubs.html" >clubs</a></li>
-                                       <li><a href="https://pch-website.dieselhausdev.com/coaches.html">coaches</a></li>
-                                       <li><a href="https://pch-website.dieselhausdev.com/parents.html">Parents & Players</a></li>
-                                   </ul>
-                                    </div>
-                               </li>
-                               <li><a href="https://pch-website.dieselhausdev.com/about.html" > about</a> </li>                    
-                               <li><a href="https://pch-website.dieselhausdev.com/pricing.html"> pricing</a></li>   
-                               <li><a href="https://pch-website.dieselhausdev.com/demo.html"> Demo</a></li>   
-                               <li><a href="#"> Login</a></li>   
-                               <li><a href="https://pch-website.dieselhausdev.com/download-app.html"><button>Download the App</button></a> </li> 
-                           </ul>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           </div>
+<nav class="site-nav center-center">
+  <ul>
+
+    {.repeated section items}
+
+
+        {.folder?}
+
+          <li class="inner-dropdown">
+            <a href="{collection.fullUrl}" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+            <div class="inner-menu">
+            <ul>
+              {.repeated section items}
+                {.collection?}
+                  <li class="{.section active} active-link{.end}">
+                    <a href="{collection.fullUrl}" >{collection.navigationTitle}</a>
+                  </li>
+                {.end}
+                {.section externalLink}
+                  <li class="external-link">
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                  </li>
+                {.end}
+              {.end}
+            </ul>
+            </div>
+          </li>
+        {.or}
+        <li class="{.if active}active{.end}" >
+        {.section collection}
+
+            <a href="{fullUrl}" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+
+        {.end}
+        {.section externalLink}
+          <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+        {.end}
+        </li>
+      {.end}
+
+    {.end}
+
+      <li><a href="#"><button>Download the App</button></a></li>
+
+  </ul>
+</nav>
