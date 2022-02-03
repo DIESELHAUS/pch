@@ -114,7 +114,9 @@
               {squarespace.main-content}
                <section class="blue-banner home-banner ">
                    <squarespace:query collection="home-hero-banner" limit="2">
+                   {.repeated section items}
                     {@|apply hero-banner.block}
+                    {.end}
                      </squarespace:query>
                    </section>
             {.end}
