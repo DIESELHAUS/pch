@@ -540,7 +540,7 @@ header{
     padding-top: 75px !important;
 }
 .club-banner{
-    background-image: url('../images/club-banner.png');
+    background-image: url('../assets/images/club-banner.png');
 }
 .club-banner button, .coach-banner button, .patents-banner button, .feature-banner button{
     padding: 22px 60px !important;
@@ -766,7 +766,7 @@ section.how-it-works-section{
     padding-bottom: 30px;
 }
 .pch-blue-banner-section{
-    background-image: url('../images/pch-banner.png');
+    background-image: url('../assets/images/pch-banner.png');
     background-size: cover;
     min-height: 580px;
     background-repeat: no-repeat;
@@ -811,7 +811,7 @@ section.how-it-works-section{
     color: #189ad6;
 }
 .download-app-section{
-    background-image: url('../images/download-bg.png');
+    background-image: url('../assets/images/download-bg.png');
     min-height: 282px;
     background-repeat: no-repeat;
     background-position: center;
@@ -893,7 +893,7 @@ footer i{
 
 /***********************About-page*********************/
 .about-banner{
-    background-image: url('../images/about-banner.png');
+    background-image: url('../assets/images/about-banner.png');
 }
 .about-banner-right-sec img{
     border-radius: 525px;
@@ -1158,7 +1158,7 @@ tbody tr td:last-child{
 
 /*************Download App page****************/
 .download-app-banner{
-    background-image: url('../images/main-download-app-banner.png');
+    background-image: url('../assets/images/main-download-app-banner.png');
     height: 1105px;
     padding-top: 48px;
 }
@@ -1170,7 +1170,7 @@ tbody tr td:last-child{
     padding-right: 15px;
 }
 .download-app-banner .home-banner-right::after{
-    content: url('../images/phone-shadow.png');
+    content: url('../assets/images/phone-shadow.png');
     position: absolute;
     bottom: -111px;
     left: 146px;
@@ -1178,7 +1178,7 @@ tbody tr td:last-child{
 
 /*************************Pricing page********************/
 .pricing-banner{
-    background-image: url('../images/pricing-banner.png');
+    background-image: url('../assets/images/pricing-banner.png');
 }
 .account-pricing-section h3{
     line-height: 44px;
@@ -1265,7 +1265,7 @@ tbody tr td:last-child{
 
 /*******************************Demo page***********************/
 .demo-banner{
-    background-image: url('../images/demo-banner.png');
+    background-image: url('../assets/images/demo-banner.png');
     height: 1105px;
     justify-content: center;
 }
@@ -1284,7 +1284,7 @@ tbody tr td:last-child{
     padding: 0px 30px 0px 45px;
 }
 .demo-right-sec{
-    background-image: url('../images/demo-right.png');
+    background-image: url('../assets/images/demo-right.png');
     min-height: 655px;
     border-radius: 0px 10px 10px 0px;
     position: relative;
@@ -1338,7 +1338,7 @@ tbody tr td:last-child{
 
 /****************coache page*******************/
 .coach-banner{
-    background-image: url('../images/coach-banner.png');
+    background-image: url('../assets/images/coach-banner.png');
 }
 .coach-section1{
     padding: 135px 0px;
@@ -1389,7 +1389,7 @@ tbody tr td:last-child{
 /*    box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
 /*}*/
 .coach-blue-section{
-    background-image: url('../images/coach-blue.png');
+    background-image: url('../assets/images/coach-blue.png');
     min-height: 670px;
     display: flex;
     align-items: center;
@@ -1454,7 +1454,7 @@ tbody tr td:last-child{
 }
 /**************************Parents Page************************/
 .patents-banner{
-    background-image: url('../images/parent-banner.png');
+    background-image: url('../assets/images/parent-banner.png');
 }
 .rsvp-sec img{
     width: 732px;
@@ -1466,7 +1466,7 @@ tbody tr td:last-child{
 }
 /*********************Features page******************/
 .feature-banner{
-    background-image: url('../assets/images/feature-banner.png');
+    background-image: url('../assets/assets/images/feature-banner.png');
 }
 
 .feature-banner .home-banner-left p{
@@ -1516,7 +1516,7 @@ tbody tr td:last-child{
     position: relative;
 }
 .invite-parents-left{
-    background-image: url('../images/invite-patent-left.png');
+    background-image: url('../assets/images/invite-patent-left.png');
     min-height: 645px;
     background-position: center;
     width: 45%;
@@ -1553,7 +1553,7 @@ tbody tr td:last-child{
 /*    border-radius: 10px;*/
 /*}*/
 .manage-admin-section{
-    background-image: url('../images/admin-banner.png');
+    background-image: url('../assets/images/admin-banner.png');
     min-height: 643px;
     background-size: cover;
     background-position: center;
@@ -1635,7 +1635,7 @@ tbody tr td:last-child{
     color: var(--third-color);
 }
 .feature-three-sec .center:nth-child(1) .feature-image-sec::after{
-    content: url('../images/msg-icon.png');
+    content: url('../assets/images/msg-icon.png');
     position: absolute;
     bottom: -38px;
     right: 4px;
@@ -1648,13 +1648,13 @@ tbody tr td:last-child{
     padding-bottom: 10px;
 }
 .feature-three-sec .center:nth-child(2) .feature-image-sec::after{
-    content: url('../images/edit-icon.png');
+    content: url('../assets/images/edit-icon.png');
     position: absolute;
     bottom: -26px;
     right: -45px;
 }
 .feature-three-sec .center:nth-child(3) .feature-image-sec::after{
-    content: url('../images/paym-icon.png');
+    content: url('../assets/images/paym-icon.png');
     position: absolute;
     bottom: -31px;
     right: -6px;
