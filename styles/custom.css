@@ -536,7 +536,7 @@ header{
 /* page: Home start */
 
 .home-banner{
-    background-image: url('../assets/images/home-banner.png');
+    /*background-image: url('../assets/images/home-banner.png');*/
     padding-top: 75px !important;
 }
 .club-banner{
@@ -1466,7 +1466,7 @@ tbody tr td:last-child{
 }
 /*********************Features page******************/
 .feature-banner{
-    background-image: url('../assets/assets/images/feature-banner.png');
+    background-image: url('../assets/images/feature-banner.png');
 }
 
 .feature-banner .home-banner-left p{
@@ -1559,18 +1559,18 @@ tbody tr td:last-child{
     background-position: center;
     background-repeat: no-repeat;
 }
-/*.manage-admin-box{*/
-/*    background-color: #dcf1fb;*/
-/*    padding: 63px 60px;*/
-/*    border-radius: 10px;*/
-/*    width: 430px;*/
-/*    float: right;*/
-/*    -webkit-box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*    -moz-box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);*/
-/*    box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*    margin-right: -50px;*/
-/*    min-height: 400px;*/
-/*}*/
+.manage-admin-box{
+    background-color: #dcf1fb;
+    padding: 63px 60px;
+    border-radius: 10px;
+    width: 430px;
+    float: right;
+    /*-webkit-box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
+    /*-moz-box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);*/
+    /*box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
+    margin-right: -50px;
+    min-height: 400px;
+}
 .feature-three-sec .center:nth-child(1) .feature-three-each{
     padding-left: 0px;
 }
