@@ -1,0 +1,173 @@
+ <section class="blue-banner feature-banner inner-page-banner">
+        <div class="container">
+            <div class="row common-contents">
+                <div class="col-md-7 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">Event Organizers love PCH</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-5 about-banner-right-sec">
+                    <img src="../assets/images/feature-round.png" alt="abt-banner-right">
+                    <div class="feature-tab-image">
+                        <img src="../assets/images/tab-and-shade.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="club-customisable feature-section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="../assets/images/manage-image.png">
+                </div>
+                 <div class="col-md-4 customisable-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">Manage Events</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-text-section">
+                    <h3 class="ft-35 fw-bold prm-clr">Invite Clubs</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+                 <div class="col-md-8">
+                    <img src="../assets/images/invite-club-main.png">
+                </div>
+            </div>
+        </div>
+        <div class="invite-club-right">
+            <img src="../assets/images/invite-club-right.png">
+        </div>
+    </section>
+
+    <section class="invite-parents-sec">
+        <div class="invite-parents-left">
+        </div>
+
+        <div class="invite-parents-mid">
+            <img src="../assets/images/invite-parent-mid1.png">
+            <div class="invite-parents-mid-phone">
+                <img src="../assets/images/invite-parent-mid2.png">
+            </div>
+        </div>
+        <div class="invite-parents-right">
+            <div>
+                <h3 class="ft-35 fw-bold">Invite Parents & Players</h3>
+                <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+            </div>
+        </div>
+    </section>
+    <section class="manage-admin-section">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-7">
+                    <img src="../assets/images/admin-web.png">
+                </div>
+                <div class="col-md-5">
+                    <div class="manage-admin-box">
+                        <h3 class="ft-35 fw-bold prm-clr">Manage<br> Admins & Staff</h3>
+                        <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="feature-three-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 center">
+                    <div class="feature-three-each">
+                    <div class="feature-image-sec">
+                        <img src="../assets/images/feature-chat.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Chat & <br>messaging</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+                 <div class="col-md-4 center">
+                    <div class="feature-three-each">
+                    <div class="feature-image-sec">
+                        <img src="../assets/images/feature-prtmission.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Customizable <br>Permissions</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+                 <div class="col-md-4 center">
+                    <div class="feature-three-each">
+                    <div class="feature-image-sec">
+                        <img src="../assets/images/feature-center.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Payment <br>Center</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="download-app-section blue-download-app-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 download-left-sec">
+                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-4 download-right-sec">
+                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="platform-team">
+        <div class="container">
+            <div class="row platform-description center">
+                <div class="col-md-12">
+                    <h3 class="ft-35 fw-bold prm-clr">We're your dedicated platform team!</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 center">
+                    <div class="platform-team-three-each">
+                    <div class="platform-team-image-sec">
+                        <img src="../assets/images/videos.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Platform <br> Training Videos</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+                 <div class="col-md-4 center">
+                    <div class="platform-team-three-each">
+                    <div class="platform-team-image-sec">
+                        <img src="../assets/images/migration.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Migration & <br> Onboarding</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+                 <div class="col-md-4 center">
+                    <div class="platform-team-three-each">
+                    <div class="platform-team-image-sec">
+                        <img src="../assets/images/live.png">
+                    </div>
+                    <h3 class="ft-35 fw-bold prm-clr">Live Support <br>Team</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
