@@ -1,5 +1,18 @@
-       <div class="col-md-6 home-banner-left">
-          <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-          <p>{body}</p>
-          <a href="#"><button>Download the App</button></a>
-      </div>
+   <section class="blue-banner home-banner" style="background-image: url('{assetUrl}');">
+       <div class="container">
+          <div class="row common-contents">
+               <div class="col-md-6 home-banner-left">
+                  <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                  <p>{body}</p>
+                  <a href="#"><button>Download the App</button></a>
+              </div>
+              <div class="col-md-6 home-banner-right">
+                 <img src="../assets/images/mobile-preview.png" alt="mobile-preview">
+             </div>
+         </div>
+     </div>
+     <div class="home-banner-right-sec">
+         <img src="../assets/images/hm-banner-right.png" alt="hm-banner-right">
+     </div>
+
+ </section>
