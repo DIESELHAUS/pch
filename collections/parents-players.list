@@ -1,0 +1,132 @@
+<section class="blue-banner patents-banner inner-page-banner">
+        <div class="container">
+            <div class="row common-contents">
+                <div class="col-md-7 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">Parents & Players love PCH!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <a href="#"><button>Create Your Free Profile</button></a>
+                </div>
+                <div class="col-md-5 about-banner-right-sec">
+                    <img src="images/parent-round.png" alt="abt-banner-right">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="club-customisable coach-section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 flex">
+                    <div class="coach-sec1-left">
+                        <img src="images/coach-schedule.png">
+                    </div>
+                    <div class="coach-section1-mobile">
+                        <div class="club2-center-image-set1">
+                            <img src="images/schedule-web.png" alt="image">
+                        </div>
+                        <div class="coach-schedule-screenshot">
+                            <img src="images/schedule-mob.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-md-4 customisable-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">View Schedules <br>for Multiple Teams & Players</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-mid-section2 coach-section2 parent-section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 club-mid-section1-right">
+                    <h3 class="prm-clr fw-bold ft-35">Invite other<br> Parents /<br>Guardians</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+                <div class="col-md-4 flex">
+                    <div class="club-screenshot">
+                        <img src="images/invite-mob.png" alt="image">
+                    </div>
+                    <div class="club2-center-image-set1">
+                        <img src="images/invite-web.png" alt="image">
+                    </div>
+
+                </div>
+                <div class="col-md-4 coach-setion2-right">
+                    <img src="images/invite-right.png" alt="image">
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+    <section class="club-blue-section coach-blue-section parents-blue-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 flex">
+                    <img src="images/coach-blue1.png">
+                    <div class="coach-blue2-image">
+                        <img src="images/coach-club2.png">
+                    </div>
+                </div>
+                <div class="col-md-4 white coach-blue-right">
+                    <h3 class="ft-35 fw-bold">Join Clubs <br>& Teams</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="club-customisable coach-section3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="rsvp-sec">
+                        <img src="images/rsvp.png">
+                    </div>
+
+                </div>
+                 <div class="col-md-4 customisable-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">RSVP for <br> Games & Events</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="club-payment">
+        <div class="container">
+            <div class="row">
+
+                 <div class="col-md-4 payment-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">Team Chat &<br> Direct Messaging</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+                <div class="col-md-8 payment-right">
+                    <div class="payment-right-main">
+                        <img src="images/coach4-right.png">
+                    </div>
+                    <div class="payment-web">
+                        <img src="images/coach4-screen.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-app-section blue-download-app-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 download-left-sec">
+                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-4 download-right-sec">
+                    <img src="images/hand-mobile.png" alt="hand-mobile">
+                </div>
+            </div>
+        </div>
+    </section>
