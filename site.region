@@ -115,7 +115,7 @@
                <section class="blue-banner home-banner ">
                 <div class="container">
                            <div class="row common-contents">
-                                <squarespace:query collection="home-hero-banner" limit="2">
+                                <squarespace:query collection="home-hero-banner" limit="1">
                                    {.repeated section items}
                                     {@|apply hero-banner.block}
                                     {.end}
@@ -136,7 +136,7 @@
                               <img src="../assets/images/user-left.png" alt="users">
                           </div>
                           <div class="common-contents center">
-                          <squarespace:query collection="home-section-1">
+                          <squarespace:query collection="home-section-1" limit="1">
                              {.repeated section items}
                                   <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
                                   <p>{body}</p>
