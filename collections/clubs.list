@@ -1,0 +1,134 @@
+<section class="blue-banner club-banner inner-page-banner">
+        <div class="container">
+            <div class="row common-contents">
+                <div class="col-md-6 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">Clubs love PCH</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-6 about-banner-right-sec">
+                    <img src="images/club-round.png" alt="abt-banner-right">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="club-mid-section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 club-mid-section1-left">
+                    <img src="images/club-mid1.png" alt="club-mid1">
+                </div>
+                <div class="col-md-2 club-mid-section1-center">
+                    <div class="club-center-image-set">
+                        <img src="images/club-center1.png" alt="image">
+                    </div>
+                </div>
+                 <div class="col-md-4 club-mid-section1-right">
+                    <h3 class="prm-clr fw-bold ft-35">Manage Leagues, Games, Special Events</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="club-mid-section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 club-mid-section1-right">
+                    <h3 class="prm-clr fw-bold ft-35">Manage Teams<br> & Rosters</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+                <div class="col-md-7 flex">
+                    <div class="club2-center-image-set1">
+                        <img src="images/club-center2.png" alt="image">
+                    </div>
+                    <div class="club-screenshot">
+                        <img src="images/mobile-screenshot2.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="club-float-right">
+            <img src="images/club-right-float.png" alt="image">
+        </div>
+
+    </section>
+    <section class="club-blue-section">
+        <div class="container">
+            <div class="row club-blue-texts">
+                <div class="col-md-6 white club-blue-left">
+                    <h3 class="ft-35 fw-bold">Manage <br>Admins & Staff</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                    <div class="club-blue-left-image">
+                        <img src="images/club-blue-left.png">
+                        <div class="club-blue-left-image-abs">
+                            <img src="images/club-blue-left-abs.png">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-md-6 white club-blue-right">
+                    <h3 class="ft-35 fw-bold">Chat &<br> messaging</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                     <div class="club-blue-right-image">
+                        <img src="images/club-blue-right.png">
+                        <div class="club-blue-right-image-abs">
+                            <img src="images/club-blue-right-abs.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="club-customisable">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <img src="images/accounts.png">
+                    <div class="customisable-mobile">
+                        <img src="images/account-mob.png">
+                    </div>
+                </div>
+                 <div class="col-md-4 customisable-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">Customizable Permissions</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="club-payment">
+        <div class="container">
+            <div class="row">
+
+                 <div class="col-md-4 payment-contents">
+                    <h3 class="ft-35 fw-bold prm-clr">Payment Center</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                </div>
+                <div class="col-md-8 payment-right">
+                    <img src="images/payment.png">
+                    <div class="payment-web">
+                        <img src="images/pay-mob.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-app-section blue-download-app-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 download-left-sec">
+                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-4 download-right-sec">
+                    <img src="images/hand-mobile.png" alt="hand-mobile">
+                </div>
+            </div>
+        </div>
+    </section>
