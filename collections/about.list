@@ -1,0 +1,52 @@
+<section class="blue-banner about-banner inner-page-banner">
+        <div class="container">
+            <div class="row common-contents">
+                <div class="col-md-6 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">About PCH</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <a href="#"><button>Create Your Free Profile</button></a>
+                </div>
+                <div class="col-md-6 about-banner-right-sec">
+                    <img src="images/about-round.png" alt="abt-banner-right">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="about-main-content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <img src="images/about-content.png" alt="about-picture">
+                </div>
+                <div class="col-md-5 about-main-content-right">
+                    <h3 class="ft-35 prm-clr fw-bold">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget vulputate mauris. Morbi in turpis ornare, pharetra lectus quis, luctus tortor. Nulla facilisi. </p>
+                    <p>Phasellus maximus auctor rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec orci enim, varius pellentesque bibendum convallis, malesuada tempor tortor. Quisque quis velit et lacus auctor feugiat et a nibh.</p>
+                    <p>Sed dapibus consequat felis ut condimentum. Vivamus tempus scelerisque ipsum, vitae malesuada nunc ultricies porta. Donec eget quam nisi. Pellentesque sollicitudin varius metus, ac blandit est accumsan sit amet. </p>
+                    <p>Ut laoreet sapien elit, a convallis mauris hendrerit nec. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam turpis leo, auctor eu suscipit vitae, tempor a felis. Nulla facilisi. Nullam vitae pretium lacus, in blandit tellus. Maecenas </p>
+
+                </div>
+            </div>
+            <div class="row about-content-row2">
+                <div class="col-md-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget vulputate mauris. Morbi in turpis ornare, pharetra lectus quis, luctus tortor. Nulla facilisllus maximus auctor rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec orci enim, varius pellentesque bibendum convallisalesuada tempor tortor. Quisque quis velit et lacus auctor feugiat et a nibh.Sed dapibus consequat felis ut condimentum. Vivamus tempus scelerisque ipsum, vitae malesuada nunc ultricies porta. Donec eget quam nisi. Pellentesque sollicitudin varius metus, ac blandit est accumsan sit amet. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="download-app-section blue-download-app-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 download-left-sec">
+                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
+                    <a href="#"><button>Contact us for a Demo</button></a>
+                </div>
+                <div class="col-md-4 download-right-sec">
+                    <img src="images/hand-mobile.png" alt="hand-mobile">
+                </div>
+            </div>
+        </div>
+    </section>
