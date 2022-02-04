@@ -132,45 +132,14 @@
                               {.end}
                           </squarespace:query>
                           </div>
+
                           <div class="container">
                               <div class="row">
-                                  <div class="col-md-3">
-                                      <div class="users-box center">
-                                          <div class="user-boc-icon">
-                                              <img src="../assets/images/event.png" alt="user-points">
-                                          </div>
-                                          <h3 class="white ft-22 fw-bold">Event Organizers</h3>
-                                          <p>Consectetur adipiscing elit sed blan dit, nisi id ornare malesuada, lorem massa blandit risus.at sceleris.</p>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-3">
-                                      <div class="users-box center">
-                                          <div class="user-boc-icon">
-                                              <img src="../assets/images/icon-blue.png" alt="user-points">
-                                          </div>
-                                          <h3 class="white ft-22 fw-bold">Clubs & Teams</h3>
-                                          <p>Consectetur adipiscing elit sed blan dit, nisi id ornare malesuada, lorem massa blandit risus.at sceleris.</p>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-3">
-                                      <div class="users-box center">
-                                          <div class="user-boc-icon">
-                                              <img src="../assets/images/camps.png" alt="user-points">
-                                          </div>
-                                          <h3 class="white ft-22 fw-bold">Leagues & Camps</h3>
-                                          <p>Consectetur adipiscing elit sed blan dit, nisi id ornare malesuada, lorem massa blandit risus.at sceleris.</p>
-                                      </div>
-                                  </div>
-                                  <div class="col-md-3">
-                                      <div class="users-box center">
-                                          <div class="user-boc-icon">
-                                              <img src="../assets/images/parents.png" alt="user-points">
-                                          </div>
-                                          <h3 class="white ft-22 fw-bold">Parents & Players</h3>
-                                          <p>Consectetur adipiscing elit sed blan dit, nisi id ornare malesuada, lorem massa blandit risus.at sceleris.</p>
-                                      </div>
-                                  </div>
-
+                              <squarespace:query collection="home-app-user" limit="4">
+                                {.repeated section items}
+                                    {@|apply app-users.block}
+                                {.end}
+                              </squarespace:query>
                               </div>
 
                               <div class="row app-features-row">
