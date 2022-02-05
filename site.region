@@ -260,12 +260,6 @@
                               </div>
                           </div>
                       </section>
-
-                    {.or}
-                     <section class="main-content" data-content-field="main-content">
-                       {squarespace.main-content}
-                     </section>
-                   {.end}
              </main>
 
         </div>
