@@ -113,11 +113,11 @@
             {.equal? collection.typeName "index"}
               {squarespace.main-content}
 
-                                <squarespace:query collection="home-hero-banner" limit="1">
-                                   {.repeated section items}
-                                    {@|apply hero-banner.block}
-                                    {.end}
-                                 </squarespace:query>
+                    <squarespace:query collection="home-hero-banner" limit="1">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
 
 
                   <section class="types-of-users">
@@ -181,7 +181,7 @@
                           </div>
                       </section>
 
-                      <section class="hm-half-section" style="background-image:url('images/half-blue-banner.png');">
+                      <section class="hm-half-section" style="background-image:url('..assets/images/half-blue-banner.png');">
                           <div class="hm-half-section-left">
                               <img src="../assets/images/half-left.png" alt="half-image">
                           </div>
@@ -228,7 +228,7 @@
                                           <i class="fas fa-star"></i>
                                           <i class="fas fa-star"></i>
                                       </div>
-                                          <h6>“{body}”</h6>
+                                          <h6>{body}</h6>
                                           <h4>{title}</h4>
                                       </div>
                                     {.end}
