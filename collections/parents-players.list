@@ -9,7 +9,7 @@
                             <a href="#"><button>Create Your Free Profile</button></a>
                         </div>
                         <div class="col-md-5 about-banner-right-sec">
-                            <img src="..assets/images/parent-round.png" alt="abt-banner-right">
+                            <img src="../assets/images/parent-round.png" alt="abt-banner-right">
                         </div>
                     </div>
                 </div>
