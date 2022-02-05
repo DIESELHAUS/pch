@@ -19,7 +19,7 @@
             <script type="text/javascript">console.log({@|json})</script>
                {.repeated section items}
                 <div class="col-md-7">
-                    <img src="../assets/images/about-content.png" alt="about-picture">
+                    <img src="{assetUrl}" alt="about-picture">
                 </div>
                 <div class="col-md-5 about-main-content-right">
                     <h3 class="ft-35 prm-clr fw-bold">{title}</h3>
