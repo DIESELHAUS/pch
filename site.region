@@ -181,7 +181,7 @@
                           </div>
                       </section>
 
-                      <section class="hm-half-section" style="background-image:url('..assets/images/half-blue-banner.png');">
+                      <section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
                           <div class="hm-half-section-left">
                               <img src="../assets/images/half-left.png" alt="half-image">
                           </div>
