@@ -1,18 +1,20 @@
-<section class="blue-banner club-banner inner-page-banner">
-        <div class="container">
-            <div class="row common-contents">
-                <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">Clubs love PCH</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
-                    <a href="#"><button>Contact us for a Demo</button></a>
+<script type="text/javascript">console.log({@|json})</script>
+   {.repeated section items}
+        <section class="blue-banner club-banner inner-page-banner">
+                <div class="container">
+                    <div class="row common-contents">
+                        <div class="col-md-6 home-banner-left">
+                            <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                            <p>{body}</p>
+                            <a href="#"><button>Contact us for a Demo</button></a>
+                        </div>
+                        <div class="col-md-6 about-banner-right-sec">
+                            <img src="../assets/images/club-round.png" alt="abt-banner-right">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 about-banner-right-sec">
-                    <img src="images/club-round.png" alt="abt-banner-right">
-                </div>
-            </div>
-        </div>
-
     </section>
+    {.end}
 
     <section class="club-mid-section1">
         <div class="container">
