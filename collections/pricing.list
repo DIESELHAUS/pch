@@ -1,39 +1,40 @@
-<section class="blue-banner pricing-banner inner-page-banner">
-        <div class="container">
-         <script type="text/javascript">console.log({@|json})</script>
-                {.repeated section items}
-            <div class="row common-contents">
-                <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                    <p>{body}</p>
-                    <a href="#"><button>Contact us for a Demo</button></a>
+<script type="text/javascript">console.log({@|json})</script>
+   {.repeated section items}
+        <section class="blue-banner pricing-banner inner-page-banner">
+                <div class="container">
+                    <div class="row common-contents">
+                        <div class="col-md-6 home-banner-left">
+                            <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                            <p>{body}</p>
+                            <a href="#"><button>Contact us for a Demo</button></a>
+                        </div>
+                        <div class="col-md-6 about-banner-right-sec">
+                            <img src="images/pricing-round.png" alt="abt-banner-right">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 about-banner-right-sec">
-                    <img src="images/pricing-round.png" alt="abt-banner-right">
-                </div>
-            </div>
-            {.end}
-
-        </div>
-
-    </section>
+            </section>
+           {.end}
 
     <section class="account-pricing-section">
         <div class="container">
+        <script type="text/javascript">console.log({@|json})</script>
+           {.repeated section items}
             <div class="row">
                 <div class="col-md-5">
-                    <h3 class="ft-35 fw-bold prm-clr">Free to Create an Account or Individual Profile.<br><span class="sec-clr">No Commitment!</span></h3>
+                    <h3 class="ft-35 fw-bold prm-clr">{title}</span></h3>
                 </div>
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-5">
-                    <p>Fees only apply to transactions</p>
+                    <p>{body}</p>
                     <div class="flex">
                         <a href="#"><button>Request a Demo</button></a>
                         <a href="#"><button>Create Your Profile</button></a>
                     </div>
                 </div>
             </div>
+            {.end}
             <div class="row pricing-box-row">
                 <div class="col-md-3  pricing-box-col">
                     <div class="pricing-boxes">
