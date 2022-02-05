@@ -1,18 +1,20 @@
-<section class="blue-banner patents-banner inner-page-banner">
-        <div class="container">
-            <div class="row common-contents">
-                <div class="col-md-7 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">Parents & Players love PCH!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
-                    <a href="#"><button>Create Your Free Profile</button></a>
+<script type="text/javascript">console.log({@|json})</script>
+   {.repeated section items}
+        <section class="blue-banner patents-banner inner-page-banner">
+                <div class="container">
+                    <div class="row common-contents">
+                        <div class="col-md-7 home-banner-left">
+                            <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                            <p>{body}</p>
+                            <a href="#"><button>Create Your Free Profile</button></a>
+                        </div>
+                        <div class="col-md-5 about-banner-right-sec">
+                            <img src="..assets/images/parent-round.png" alt="abt-banner-right">
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5 about-banner-right-sec">
-                    <img src="images/parent-round.png" alt="abt-banner-right">
-                </div>
-            </div>
-        </div>
-
-    </section>
+            </section>
+        {.end}
 
     <section class="club-customisable coach-section1">
         <div class="container">
