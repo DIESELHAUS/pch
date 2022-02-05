@@ -218,7 +218,7 @@
                       <section class="hm-testimonial-section center">
                           <div class="container">
                               <div class="row">
-                               <squarespace:query collection="home-section-2" limit="2">
+                               <squarespace:query collection="home-section-6" limit="2">
                                    {.repeated section items}
                                       <div class="col-md-6 testimonial-boxes">
                                       <div class="taring-stars">
