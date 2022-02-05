@@ -20,11 +20,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 club-mid-section1-left">
-                    <img src="images/club-mid1.png" alt="club-mid1">
+                    <img src="../assets/images/club-mid1.png" alt="club-mid1">
                 </div>
                 <div class="col-md-2 club-mid-section1-center">
                     <div class="club-center-image-set">
-                        <img src="images/club-center1.png" alt="image">
+                        <img src="../assets/images/club-center1.png" alt="image">
                     </div>
                 </div>
                  <div class="col-md-4 club-mid-section1-right">
@@ -44,16 +44,16 @@
                 </div>
                 <div class="col-md-7 flex">
                     <div class="club2-center-image-set1">
-                        <img src="images/club-center2.png" alt="image">
+                        <img src="../assets/images/club-center2.png" alt="image">
                     </div>
                     <div class="club-screenshot">
-                        <img src="images/mobile-screenshot2.png" alt="image">
+                        <img src="../assets/images/mobile-screenshot2.png" alt="image">
                     </div>
                 </div>
             </div>
         </div>
         <div class="club-float-right">
-            <img src="images/club-right-float.png" alt="image">
+            <img src="../assets/images/club-right-float.png" alt="image">
         </div>
 
     </section>
@@ -64,9 +64,9 @@
                     <h3 class="ft-35 fw-bold">Manage <br>Admins & Staff</h3>
                     <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
                     <div class="club-blue-left-image">
-                        <img src="images/club-blue-left.png">
+                        <img src="../assets/images/club-blue-left.png">
                         <div class="club-blue-left-image-abs">
-                            <img src="images/club-blue-left-abs.png">
+                            <img src="../assets/images/club-blue-left-abs.png">
                         </div>
                     </div>
 
@@ -76,9 +76,9 @@
                     <h3 class="ft-35 fw-bold">Chat &<br> messaging</h3>
                     <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
                      <div class="club-blue-right-image">
-                        <img src="images/club-blue-right.png">
+                        <img src="../assets/images/club-blue-right.png">
                         <div class="club-blue-right-image-abs">
-                            <img src="images/club-blue-right-abs.png">
+                            <img src="../assets/images/club-blue-right-abs.png">
                         </div>
                     </div>
                 </div>
@@ -91,9 +91,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <img src="images/accounts.png">
+                    <img src="../assets/images/accounts.png">
                     <div class="customisable-mobile">
-                        <img src="images/account-mob.png">
+                        <img src="../assets/images/account-mob.png">
                     </div>
                 </div>
                  <div class="col-md-4 customisable-contents">
@@ -112,9 +112,9 @@
                     <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
                 </div>
                 <div class="col-md-8 payment-right">
-                    <img src="images/payment.png">
+                    <img src="../assets/images/payment.png">
                     <div class="payment-web">
-                        <img src="images/pay-mob.png">
+                        <img src="../assets/images/pay-mob.png">
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@
                     <a href="#"><button>Contact us for a Demo</button></a>
                 </div>
                 <div class="col-md-4 download-right-sec">
-                    <img src="images/hand-mobile.png" alt="hand-mobile">
+                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
                 </div>
             </div>
         </div>
