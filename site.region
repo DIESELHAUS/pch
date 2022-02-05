@@ -127,7 +127,7 @@
                           <div class="common-contents center">
                           <squarespace:query collection="home-section-1" limit="1">
                              {.repeated section items}
-                                  <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
+                                  <h3 class="poppi prm-clr ft-35 fw-bold">{title}</h3>
                                   <p>{body}</p>
                               {.end}
                           </squarespace:query>
@@ -191,14 +191,14 @@
                                   <div class="col-md-7">
                                   </div>
                                   <div class="col-md-5">
+                                  <squarespace:query collection="home-section-4">
+                                     {.repeated section items}
                                       <div class="half-boxes">
-                                          <h4 class="white fw-bold ft-30">Donec maximus tinci dunt metus uis gravi</h4>
-                                          <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                                          <h4 class="white fw-bold ft-30">{title}</h4>
+                                          <p>{body}</p>
                                       </div>
-                                      <div class="half-boxes">
-                                          <h4 class="white fw-bold ft-30">Donec maximus tinci dunt metus uis gravi</h4>
-                                          <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
-                                      </div>
+                                   {.end}
+                                   </squarespace:query>
                                   </div>
                               </div>
                           </div>
@@ -218,28 +218,21 @@
                       <section class="hm-testimonial-section center">
                           <div class="container">
                               <div class="row">
-                                  <div class="col-md-6 testimonial-boxes">
-                                  <div class="taring-stars">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                  </div>
-                                      <h6>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in pellentesque tellus. Aenean non dui vel velit scelerisque aliquet.”</h6>
-                                      <h4>John DOE</h4>
-                                  </div>
-                                 <div class="col-md-6 testimonial-boxes">
-                                 <div class="taring-stars">
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                      <i class="fas fa-star"></i>
-                                  </div>
-                                      <h6>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in pellentesque tellus. Aenean non dui vel velit scelerisque aliquet.”</h6>
-                                      <h4>jane DOE</h4>
-                                  </div>
+                               <squarespace:query collection="home-section-2" limit="2">
+                                   {.repeated section items}
+                                      <div class="col-md-6 testimonial-boxes">
+                                      <div class="taring-stars">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                          <h6>“{body}”</h6>
+                                          <h4>{title}</h4>
+                                      </div>
+                                    {.end}
+                                  </squarespace:query>
                               </div>
                           </div>
                       </section>
@@ -260,6 +253,12 @@
                               </div>
                           </div>
                       </section>
+
+                    {.or}
+                     <section class="main-content" data-content-field="main-content">
+                       {squarespace.main-content}
+                     </section>
+                   {.end}
              </main>
 
         </div>
