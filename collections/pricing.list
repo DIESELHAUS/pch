@@ -1,15 +1,19 @@
 <section class="blue-banner pricing-banner inner-page-banner">
         <div class="container">
+         <script type="text/javascript">console.log({@|json})</script>
+                {.repeated section items}
             <div class="row common-contents">
                 <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">Pricing</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit, nisi id ornare malesuada, lorem massa blandit risus, at scelerisque leo metus sed risus. Fusce egestas ullamcorper est vel scelerisque.</p>
+                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                    <p>{body}</p>
                     <a href="#"><button>Contact us for a Demo</button></a>
                 </div>
                 <div class="col-md-6 about-banner-right-sec">
                     <img src="images/pricing-round.png" alt="abt-banner-right">
                 </div>
             </div>
+            {.end}
+
         </div>
 
     </section>
