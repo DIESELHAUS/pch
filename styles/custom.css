@@ -1466,7 +1466,7 @@ tbody tr td:last-child{
 }
 /*********************Features page******************/
 .feature-banner{
-    background-image: url('../assets/images/feature-banner.png');
+    /*background-image: url('../assets/images/feature-banner.png');*/
 }
 
 .feature-banner .home-banner-left p{
