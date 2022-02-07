@@ -38,15 +38,7 @@
                         <div class="col-md-3  pricing-box-col">
                             <div class="pricing-boxes">
                                 <h4 class="fw-bold">{title}</h4>
-                                <ul>
-                                    <li>Sed blan ditisi id </li>
-                                    <li>Ornare malesuada</li>
-                                    <li>Lorem massa blandit</li>
-                                    <li>Risus at sceleris</li>
-                                    <li>Que leo metus sed</li>
-                                    <li>Risus Fusce egestas</li>
-                                    <li>Ullamcorper est</li>
-                                </ul>
+                                {body}
                             </div>
                         </div>
                     {.end}
