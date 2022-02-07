@@ -87,36 +87,21 @@
     <section class="feature-three-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 center">
-                    <div class="feature-three-each">
-                    <div class="feature-image-sec">
-                        <img src="../assets/images/feature-chat.png">
+                <squarespace:query collection="event-features" limit="3">
+                    {.repeated section items}
+                    <div class="col-md-4 center">
+                        <div class="feature-three-each">
+                            <div class="feature-image-sec">
+                                <img src="{assetUrl}">
+                            </div>
+                            <h3 class="ft-35 fw-bold prm-clr">{title}</h3>
+                            <p>{body}</p>
+                        </div>
                     </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Chat & <br>messaging</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
-                 <div class="col-md-4 center">
-                    <div class="feature-three-each">
-                    <div class="feature-image-sec">
-                        <img src="../assets/images/feature-prtmission.png">
-                    </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Customizable <br>Permissions</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
-                 <div class="col-md-4 center">
-                    <div class="feature-three-each">
-                    <div class="feature-image-sec">
-                        <img src="../assets/images/feature-center.png">
-                    </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Payment <br>Center</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
+                    {.end}
+                </squarespace:query>
             </div>
         </div>
-
     </section>
 
 
