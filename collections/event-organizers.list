@@ -128,7 +128,7 @@
                 </div>
             </div>
             <div class="row">
-                <squarespace:query collection="event-features" limit="3">
+                <squarespace:query collection="event-team" limit="3">
                     {.repeated section items}
                         <div class="col-md-4 center">
                             <div class="platform-team-three-each">
