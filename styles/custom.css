@@ -53,6 +53,10 @@ p {
     margin-bottom: 1rem;
 }
 
+.col {
+    padding: 0 !important;
+}
+
 ol,
 ul,
 dl {
