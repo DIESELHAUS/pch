@@ -1,6 +1,23 @@
-    <squarespace:query collection="event-banner">
+    <squarespace:query collection="event-organizers">
        {.repeated section items}
-        {@|apply hero-banner.block}
+                <section class="blue-banner feature-banner inner-page-banner" style="background-image: url('{assetUrl}');">
+                        <div class="container">
+                            <div class="row common-contents">
+                                <div class="col-md-7 home-banner-left">
+                                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                                    <p>{body}</p>
+                                    <a href="#"><button>Contact us for a Demo</button></a>
+                                </div>
+                                <div class="col-md-5 about-banner-right-sec">
+                                    <img src="../assets/images/feature-round.png" alt="abt-banner-right">
+                                    <div class="feature-tab-image">
+                                        <img src="../assets/images/tab-and-shade.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
         {.end}
      </squarespace:query>
 
