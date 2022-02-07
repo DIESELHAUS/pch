@@ -1,5 +1,5 @@
-    <squarespace:query collection="event-organizers">
-       {.repeated section items}
+<script type="text/javascript">console.log({@|json})</script>
+   {.repeated section items}
                 <section class="blue-banner feature-banner inner-page-banner" style="background-image: url('{assetUrl}');">
                         <div class="container">
                             <div class="row common-contents">
@@ -19,7 +19,6 @@
 
                     </section>
         {.end}
-     </squarespace:query>
 
     <section class="club-customisable feature-section1">
         <div class="container">
