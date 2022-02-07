@@ -33,13 +33,19 @@
                 </div>
             </div>
             <div class="row pricing-box-row">
-                <squarespace:query collection="pricing-users">
+                <squarespace:query collection="pricing-users" limit="3">
                     {.repeated section items}
                         <div class="col-md-3  pricing-box-col">
                             <div class="pricing-boxes">
                                 <h4 class="fw-bold">{title}</h4>
                                 <ul>
-                                    {body}
+                                    <li>Sed blan ditisi id </li>
+                                    <li>Ornare malesuada</li>
+                                    <li>Lorem massa blandit</li>
+                                    <li>Risus at sceleris</li>
+                                    <li>Que leo metus sed</li>
+                                    <li>Risus Fusce egestas</li>
+                                    <li>Ullamcorper est</li>
                                 </ul>
                             </div>
                         </div>
