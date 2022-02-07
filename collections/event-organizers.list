@@ -128,33 +128,19 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4 center">
-                    <div class="platform-team-three-each">
-                    <div class="platform-team-image-sec">
-                        <img src="../assets/images/videos.png">
-                    </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Platform <br> Training Videos</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
-                 <div class="col-md-4 center">
-                    <div class="platform-team-three-each">
-                    <div class="platform-team-image-sec">
-                        <img src="../assets/images/migration.png">
-                    </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Migration & <br> Onboarding</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
-                 <div class="col-md-4 center">
-                    <div class="platform-team-three-each">
-                    <div class="platform-team-image-sec">
-                        <img src="../assets/images/live.png">
-                    </div>
-                    <h3 class="ft-35 fw-bold prm-clr">Live Support <br>Team</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egestas tell us placerat. Suspendisse commod leo in sollicitudin ullamcorper.</p>
-                </div>
-                </div>
+                <squarespace:query collection="event-features" limit="3">
+                    {.repeated section items}
+                        <div class="col-md-4 center">
+                            <div class="platform-team-three-each">
+                                <div class="platform-team-image-sec">
+                                    <img src="{assetUrl}">
+                                </div>
+                                <h3 class="ft-35 fw-bold prm-clr">{title}</h3>
+                                <p>{body}</p>
+                            </div>
+                        </div>
+                    {.end}
+                </squarespace:query>
             </div>
         </div>
 
