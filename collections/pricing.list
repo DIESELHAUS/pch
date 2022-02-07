@@ -33,66 +33,18 @@
                 </div>
             </div>
             <div class="row pricing-box-row">
-            <squarespace:query collection="home-section-4">
-                {.repeated section items}
-                    <div class="col-md-3  pricing-box-col">
-                        <div class="pricing-boxes">
-                            <h4 class="fw-bold">Event Organizers</h4>
-                            <ul>
-                                <li>Sed blan ditisi id </li>
-                                <li>Ornare malesuada</li>
-                                <li>Lorem massa blandit</li>
-                                <li>Risus at sceleris</li>
-                                <li>Que leo metus sed</li>
-                                <li>Risus Fusce egestas</li>
-                                <li>Ullamcorper est</li>
-                            </ul>
+                <squarespace:query collection="pricing-users">
+                    {.repeated section items}
+                        <div class="col-md-3  pricing-box-col">
+                            <div class="pricing-boxes">
+                                <h4 class="fw-bold">{title}</h4>
+                                <ul>
+                                    {body}
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                {.end}
-            </squarespace:query>
-                <div class="col-md-3  pricing-box-col">
-                    <div class="pricing-boxes">
-                    <h4 class="fw-bold">Clubs & Teams</h4>
-                    <ul>
-                        <li>Sed blan ditisi id </li>
-                        <li>Ornare malesuada</li>
-                        <li>Lorem massa blandit</li>
-                        <li>Risus at sceleris</li>
-                        <li>Que leo metus sed</li>
-                        <li>Risus Fusce egestas</li>
-                        <li>Ullamcorper est</li>
-                    </ul>
-                </div>
-                </div>
-                <div class="col-md-3  pricing-box-col">
-                    <div class="pricing-boxes">
-                    <h4 class="fw-bold">Parents</h4>
-                    <ul>
-                        <li>Sed blan ditisi id </li>
-                        <li>Ornare malesuada</li>
-                        <li>Lorem massa blandit</li>
-                        <li>Risus at sceleris</li>
-                        <li>Que leo metus sed</li>
-                        <li>Risus Fusce egestas</li>
-                        <li>Ullamcorper est</li>
-                    </ul>
-                </div>
-                </div>
-                <div class="col-md-3  pricing-box-col">
-                    <div class="pricing-boxes">
-                    <h4 class="fw-bold">Players</h4>
-                    <ul>
-                        <li>Sed blan ditisi id </li>
-                        <li>Ornare malesuada</li>
-                        <li>Lorem massa blandit</li>
-                        <li>Risus at sceleris</li>
-                        <li>Que leo metus sed</li>
-                        <li>Risus Fusce egestas</li>
-                        <li>Ullamcorper est</li>
-                    </ul>
-                </div>
-                </div>
+                    {.end}
+                </squarespace:query>
             </div>
         </div>
     </section>
