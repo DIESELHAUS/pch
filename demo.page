@@ -6,34 +6,11 @@
                     <h3 class="ft-30 fw-bold prm-clr">Contact us now!</h3>
                     <p>To schedule a demo or for all other information, please fill out the form below. Please let us know if you’re a parent, player, club or event organization</p>
                     <div>
-                        <form class="contact__form" method="post" action="mail.php">
-
-                            <!-- form element -->
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input name="name" type="text" class="form-control" placeholder="Name" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <input name="email" type="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <input name="phone" type="text" class="form-control" placeholder="Phone" required>
-                                </div>
-
-                                <div class="col-12 form-group">
-                                    <textarea name="message" class="form-control" rows="3" placeholder="Message" required></textarea>
-                                </div>
-                                <div class="col-12 form-group">
-                                    <p>Please tick the box to continue:</p>
-                                    <div class="flex">
-                                        <div class="g-recaptcha" data-sitekey="___enter_site_key___"></div>
-                                        <input name="submit" type="submit" class="btn" value="Submit">
-                                    </div>
-                                </div>
-
-                            </div>
-                            <!-- end form element -->
-                        </form>
+                        <squarespace:query collection="demo-form" limit="10">
+                            {.repeated section items}
+                                {body}
+                            {.end}
+                        </squarespace:query>squarespace-server>
                     </div>
                 </div>
             </div>
