@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="row common-contents">
                     <div class="col-md-6 home-banner-left">
-                        <h1 class="sec-clr ft-71 fw-bold">Download <br>{title}</h1>
+                        <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
                         {body}
                         <div class="flex">
                             <a href="#" target="_blank"><img src="../assets/images/App-Store-blue.png" alt="app-store"></a>
