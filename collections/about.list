@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-5 about-main-content-right">
                     <h3 class="ft-35 prm-clr fw-bold">{title}</h3>
-                    <p>{body}</p>
+                    {body}
 
                 </div>
                 {.end}
