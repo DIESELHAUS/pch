@@ -5,7 +5,7 @@
                 <div class="row common-contents">
                     <div class="col-md-6 home-banner-left">
                         <h1 class="sec-clr ft-71 fw-bold">Download <br>{title}</h1>
-                        <p>{body}</p>
+                        {body}
                         <div class="flex">
                             <a href="#" target="_blank"><img src="../assets/images/App-Store-blue.png" alt="app-store"></a>
                             <a href="#" target="_blank"><img src="../assets/images/Google-Play-blue.png" alt="Google-Play"></a>
