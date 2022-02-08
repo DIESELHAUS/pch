@@ -57,15 +57,11 @@
         </div>
 
     </section>
-    <section class="club-blue-section">
-        <div class="container">
-            <squarespace:query collection="clubs-blue-section">
-                {.repeated section items}
-                    {body}
-                {.end}
-            </squarespace:query>
-       </div>
-    </section>
+    <squarespace:query collection="clubs-blue-section">
+        {.repeated section items}
+            {body}
+            {.end}
+        </squarespace:query>
 
     <section class="club-customisable">
         <div class="container">
