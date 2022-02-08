@@ -10,7 +10,7 @@
                             {.repeated section items}
                                 {body}
                             {.end}
-                        </squarespace:query>squarespace-server>
+                        </squarespace:query>
                     </div>
                 </div>
             </div>
