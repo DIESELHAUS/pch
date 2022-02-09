@@ -114,10 +114,13 @@
             {.equal? collection.typeName "index"}
               {squarespace.main-content}
 
-                    <squarespace:query collection="home-hero-banner" limit="1">
+                    <squarespace:query collection="home-hero-banner">
                        {.repeated section items}
                         {@|apply hero-banner.block}
                         {.end}
+                       {.repeated section items}
+                                               <p>{body}</p><p>{title}</p>
+                                               {.end}
                      </squarespace:query>
 
 
