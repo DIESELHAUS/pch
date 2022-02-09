@@ -128,7 +128,7 @@
                           <div class="common-contents center">
                           <squarespace:query collection="home-section-1" limit="1">
                              {.repeated section items}
-                                  <h3 class="poppi prm-clr ft-35 fw-bold">{title}</h3>
+                                  <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
                                   <p>{body}</p>
                               {.end}
                           </squarespace:query>
@@ -139,6 +139,10 @@
                               <squarespace:query collection="home-app-user" limit="4">
                                 {.repeated section items}
                                     {@|apply app-users.block}
+                                {.end}
+
+                                 {.repeated section items}
+                                    {@|apply home-hero-banner.block}
                                 {.end}
                               </squarespace:query>
                               </div>
