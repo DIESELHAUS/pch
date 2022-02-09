@@ -1384,7 +1384,7 @@ tbody tr td:last-child{
 }
 .coach-setion2-right{
     margin-left: -237px;
-    z-index: -1;
+    /*z-index: -1;*/
 }
 .coach-section2 img, .coach-blue-section img, .coach-section3 img, .club-payment img{
     border-radius: 10px;
