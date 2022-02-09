@@ -118,9 +118,6 @@
                        {.repeated section items}
                         {@|apply hero-banner.block}
                         {.end}
-                       {.repeated section items}
-                                               <p>{body}</p><p>{title}</p>
-                                               {.end}
                      </squarespace:query>
 
 
