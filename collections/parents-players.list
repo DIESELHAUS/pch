@@ -5,11 +5,11 @@
                     <div class="row common-contents">
                         <div class="col-md-7 home-banner-left">
                             <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                            <p>{body}</p>
+                            {body}
                             <a href="#"><button>Create Your Free Profile</button></a>
                         </div>
                         <div class="col-md-5 about-banner-right-sec">
-                            <img src="../assets/images/parent-round.png" alt="abt-banner-right">
+                            <img src="{assetUrl}" alt="abt-banner-right">
                         </div>
                     </div>
                 </div>
