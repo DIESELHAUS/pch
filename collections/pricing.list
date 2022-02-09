@@ -9,7 +9,7 @@
                             <a href="#"><button>Contact us for a Demo</button></a>
                         </div>
                         <div class="col-md-6 about-banner-right-sec">
-                            <img src="../assets/images/pricing-round.png" alt="abt-banner-right">
+                            <img src="{assetUrl}" alt="abt-banner-right">
                         </div>
                     </div>
                 </div>
