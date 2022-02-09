@@ -140,10 +140,6 @@
                                 {.repeated section items}
                                     {@|apply app-users.block}
                                 {.end}
-
-                                 {.repeated section items}
-                                    {@|apply home-hero-banner.block}
-                                {.end}
                               </squarespace:query>
                               </div>
 
