@@ -1,19 +1,19 @@
 <script type="text/javascript">console.log({@|json})</script>
    {.repeated section items}
         <section class="blue-banner club-banner inner-page-banner">
-                <div class="container">
-                    <div class="row common-contents">
-                        <div class="col-md-6 home-banner-left">
-                            <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                            {body}
-                            <a href="#"><button>Contact us for a Demo</button></a>
-                        </div>
-                        <div class="col-md-6 about-banner-right-sec">
-                            <img src="../assets/images/club-round.png" alt="abt-banner-right">
-                        </div>
+            <div class="container">
+                <div class="row common-contents">
+                    <div class="col-md-6 home-banner-left">
+                        <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                        {body}
+                        <a href="#"><button>Contact us for a Demo</button></a>
+                    </div>
+                    <div class="col-md-6 about-banner-right-sec">
+                        <img src="{assetUrl}" alt="abt-banner-right">
                     </div>
                 </div>
-    </section>
+            </div>
+        </section>
     {.end}
 
     <section class="club-mid-section1">
@@ -57,11 +57,36 @@
         </div>
 
     </section>
-    <squarespace:query collection="clubs-blue-section">
-        {.repeated section items}
-            {body}
-            {.end}
-        </squarespace:query>
+    <section class="club-blue-section">
+        <div class="container">
+            <div class="row club-blue-texts">
+            <squarespace:query collection="clubs-blue-section">
+            {.repeated section items}
+                <div class="col-md-6 white club-blue-left">
+                    <h3 class="ft-35 fw-bold">Manage <br>Admins & Staff</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                    <div class="club-blue-left-image">
+                        <img src="../assets/images/club-blue-left.png">
+                        <div class="club-blue-left-image-abs">
+                            <img src="../assets/images/club-blue-left-abs.png">
+                        </div>
+                    </div>
+                </div>
+                {.end}
+                </squarespace:query>
+                <div class="col-md-6 white club-blue-right">
+                    <h3 class="ft-35 fw-bold">Chat &<br> messaging</h3>
+                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                     <div class="club-blue-right-image">
+                        <img src="../assets/images/club-blue-right.png">
+                        <div class="club-blue-right-image-abs">
+                            <img src="../assets/images/club-blue-right-abs.png">
+                        </div>
+                      </div>
+                </div>
+            </div>
+       </div>
+    </section>
 
     <section class="club-customisable">
         <div class="container">
