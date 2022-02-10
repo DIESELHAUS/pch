@@ -159,16 +159,16 @@
                           </div>
 
                       </section>
-                          <section class="how-it-works-section">
-                            <squarespace:query collection="home-how-it-work">
-                                {.repeated section items}
-                                    {body}
-                                      <div class="how-it-work-right-sec">
-                                          <img src="{assetUrl}">
-                                      </div>
-                                {.end}
-                            </squarespace:query>
-                          </section>
+                      <section class="how-it-works-section">
+                        <squarespace:query collection="home-how-it-work">
+                            {.repeated section items}
+                                {body}
+                                  <div class="how-it-work-right-sec">
+                                      <img src="{assetUrl}">
+                                  </div>
+                            {.end}
+                        </squarespace:query>
+                      </section>
 
                       <section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
                           <div class="hm-half-section-left">
