@@ -2622,3 +2622,12 @@ body .burger:hover{
 .sqs-layout .sqs-row {
     padding: 0 !important;
 }
+
+.sqs-block {
+    padding-bottom: 0 !important;
+}
+
+.testimonial-body p{
+    font-size: 19px;
+    line-height: 36px;
+}
