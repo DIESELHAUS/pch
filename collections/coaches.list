@@ -68,7 +68,7 @@
     </section>
     <section class="club-blue-section coach-blue-section">
         <div class="container">
-            <script type="text/javascript">console.log({@|json})</script>
+           <squarespace:query collection="coaches-join-club">
            {.repeated section items}
                 <div class="row">
                     <div class="col-md-8 flex">
@@ -83,6 +83,7 @@
                     </div>
                 </div>
             {.end}
+            </squarespace:query>
         </div>
 
     </section>
