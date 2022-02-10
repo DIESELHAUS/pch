@@ -2618,3 +2618,7 @@ body .burger:hover{
 .dropdown-menu > .dropdown-toggle:active {
   pointer-events: none;
 }*/
+
+.sqs-layout .sqs-row {
+    padding: 0 !important;
+}
