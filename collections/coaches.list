@@ -68,18 +68,21 @@
     </section>
     <section class="club-blue-section coach-blue-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 flex">
-                    <img src="../assets/images/coach-blue1.png">
-                    <div class="coach-blue2-image">
-                        <img src="../assets/images/coach-club2.png">
+            <script type="text/javascript">console.log({@|json})</script>
+           {.repeated section items}
+                <div class="row">
+                    <div class="col-md-8 flex">
+                        <img src="../assets/images/coach-blue1.png">
+                        <div class="coach-blue2-image">
+                            <img src="../assets/images/coach-club2.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4 white coach-blue-right">
+                        <h3 class="ft-35 fw-bold">{title}</h3>
+                        <p>{body}</p>
                     </div>
                 </div>
-                <div class="col-md-4 white coach-blue-right">
-                    <h3 class="ft-35 fw-bold">Join Clubs <br>& Teams</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
-                </div>
-            </div>
+            {.end}
         </div>
 
     </section>
