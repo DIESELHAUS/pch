@@ -1,30 +1,47 @@
-{.section items}
-  {.repeated section @}
-    {.collection?}
-      {.folder?}
-        {.index?}
-          {.section collection}
-            <a href="{fullUrl}" class="Mobile-overlay-nav-item">
-              {navigationTitle}
-            </a>
-          {.end}
+<nav class="site-nav center-center">
+<div class="menu-close">
+     <a href="javascript:;" class="close-btn-side"><i class="fa fa-close"></i></a>
+ </div>
+ <div class="mobile-menu-wrapper">
+  <ul>
+    {.repeated section items}
+        {.folder?}
+          <li id="tituloMenu1">
+            <a href="{collection.fullUrl}" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+            <div id="menu1" style="display:none;">
+            <ul>
+              {.repeated section items}
+                {.collection?}
+                  <li class="{.section active} active-link{.end}">
+                    <a href="{collection.fullUrl}" >{collection.navigationTitle}</a>
+                  </li>
+                {.end}
+                {.section externalLink}
+                  <li class="external-link">
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                  </li>
+                {.end}
+              {.end}
+            </ul>
+            </div>
+          </li>
         {.or}
-          <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="{collection.urlId}">
-            <span class="Mobile-overlay-nav-item--folder-label">{collection.navigationTitle}</span>
-          </button>
-        {.end}
-      {.or}
+        <li class="{.if active}active{.end}" >
         {.section collection}
-          <a href="{fullUrl}" class="Mobile-overlay-nav-item">
-            {navigationTitle}
-          </a>
+
+            <a href="{fullUrl}" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+
         {.end}
+        {.section externalLink}
+          <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+        {.end}
+        </li>
       {.end}
+
     {.end}
-    {.section externalLink}
-      <a href="{url}"{.section newWindow} target="_blank"{.end} class="Mobile-overlay-nav-item">
-        {title}
-      </a>
-    {.end}
-  {.end}
-{.end}
+
+      <li><a href="https://pigeon-cricket-8rlg.squarespace.com/download-app"><button>Download the App</button></a></li>
+
+  </ul>
+  </div>
+</nav>
