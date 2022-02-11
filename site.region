@@ -153,7 +153,9 @@
                                             {.end}
                                             </squarespace:query>
                                       </div>
-                                      <div class="app-feature-image-sec"></div>
+                                      <div class="app-feature-image-sec">
+                                        <img src="{assetUrl}">
+                                      </div>
                                   </div>
                               </div>
                           </div>
