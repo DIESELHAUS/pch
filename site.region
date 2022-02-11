@@ -145,17 +145,17 @@
 
                               <div class="row app-features-row">
                                   <div class="col-md-12">
+                                  <squarespace:query collection="home-section-2" limit="1">
+                                     {.repeated section items}
                                       <div class="common-contents center">
-                                        <squarespace:query collection="home-section-2" limit="1">
-                                           {.repeated section items}
-                                              <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
-                                              <p>{body}</p>
-                                            {.end}
-                                            </squarespace:query>
-                                      </div>
-                                      <div class="app-feature-image-sec">
-                                        <img src="{assetUrl}">
-                                      </div>
+                                          <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
+                                          <p>{body}</p>
+                                       </div>
+                                       <div class="app-feature-image-sec">
+                                            <img src="{assetUrl}">
+                                        </div>
+                                        {.end}
+                                    </squarespace:query>
                                   </div>
                               </div>
                           </div>
