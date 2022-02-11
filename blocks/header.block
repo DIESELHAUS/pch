@@ -44,28 +44,5 @@
    </header>
 
   <div class="mobile-menu">
-     <div class="menu-close">
-         <a href="javascript:;" class="close-btn-side"><i class="fa fa-close"></i></a>
-     </div>
-     <div class="mobile-menu-wrapper">
-      <ul>
-         <li><a href="#" class="main-menu-item">Home</a>
-         </li>
-         <li id="tituloMenu1"><a href="#">users<i class="fa fa-angle-down" aria-hidden="true"></i></a>
-             <div id="menu1" style="display:none;">
-                 <ul>
-                     <li><a href="#"> Event Organizers</a></li>
-                     <li><a href="#" >clubs</a></li>
-                     <li><a href="#">coaches</a></li>
-                     <li><a href="#">Parents & Players</a></li>
-                 </ul>
-             </div>
-         </li>
-         <li><a href="#" > about</a> </li>
-         <li><a href="#"> pricing</a></li>
-         <li><a href="#"> Demo</a></li>
-         <li><a href="#"> Login</a></li>
-         <li><a href="#"><button>Download the App</button></a> </li>
-     </ul>
- </div>
+     <squarespace:navigation navigationId="mainNavigation" template="mobile-nav" />
  </div>
