@@ -45,7 +45,7 @@
                     <a href="#"><button>Contact us for a Demo</button></a>
                 </div>
                 <div class="col-md-4 download-right-sec">
-                    <img src="images/hand-mobile.png" alt="hand-mobile">
+                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
                 </div>
             </div>
         </div>
