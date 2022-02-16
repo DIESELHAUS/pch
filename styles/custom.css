@@ -436,9 +436,9 @@ button:hover{
     opacity: 1;
     top: 24px;
     border-radius: 5px;
-    /*-webkit-box-shadow: 0px 0px 11px 2px rgb(0 0 0 / 6%);*/
+    -webkit-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.06);;
     -moz-box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.06);
-    /*box-shadow: 0px 0px 11px 2px rgb(0 0 0 / 6%);*/
+    box-shadow: 0px 0px 11px 2px rgba(0,0,0,0.06);
     padding: 0px 20px;
     display: block;
 }
@@ -1028,16 +1028,16 @@ footer i{
     margin-top: -536px;
 }
 .club-screenshot img{
-    /*-webkit-box-shadow: 28px 26px 19px -21px rgb(0 0 0 / 24%);*/
-    /*-moz-box-shadow: 28px 26px 19px -21px rgb(0 0 0 / 24%);*/
-    /*box-shadow: 28px 26px 19px -21px rgb(0 0 0 / 24%);*/
+    -webkit-box-shadow: 28px 26px 19px -21px rgba(0,0,0,0.24);
+    -moz-box-shadow: 28px 26px 19px -21px rgba(0,0,0,0.24);
+    box-shadow: 28px 26px 19px -21px rgba(0,0,0,0.24);
     border-radius: 10px;
 }
 .club2-center-image-set1{
     z-index: 9;
-    /*-webkit-box-shadow: -24px 24px 0px 0px rgb(24 154 214);*/
-    /*-moz-box-shadow: -24px 24px 0px 0px rgb(24 154 214);*/
-    /*box-shadow: -24px 24px 0px 0px rgb(24 154 214);*/
+    -webkit-box-shadow: -24px 24px 0px 0px rgba(24,154,214,1);
+    -moz-box-shadow: -24px 24px 0px 0px rgba(24,154,214,1);
+    box-shadow: -24px 24px 0px 0px rgba(24,154,214,1);
     border-radius: 10px;
     margin-left: -47px;
 }
@@ -1049,9 +1049,9 @@ footer i{
 }
 .club2-center-image-set1 img{
     border-radius: 10px;
-    /*-webkit-box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 12%);*/
-    /*-moz-box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 12%);*/
-    /*box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 12%);*/
+    -webkit-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.12);
+    box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.12);
 }
 .club-blue-section{
     background-image: url('../assets/images/club-blue-banner.png');
@@ -1116,9 +1116,9 @@ tbody tr td:last-child{
     position: absolute;
     right: 0;
     top: 36px;
-    /*-webkit-box-shadow: -24px -24px 0px 1px rgb(24 154 214);*/
-    /*-moz-box-shadow: -24px -24px 0px 1px rgb(24 154 214);*/
-    /*box-shadow: -24px -24px 0px 1px rgb(24 154 214);*/
+    -webkit-box-shadow: -24px -24px 0px 1px rgba(24,154,214,1);
+    -moz-box-shadow: -24px -24px 0px 1px rgba(24,154,214,1);
+    box-shadow: -24px -24px 0px 1px rgba(24,154,214,1);
     border-radius: 10px;
 
 }
@@ -1126,9 +1126,9 @@ tbody tr td:last-child{
     padding-bottom: 21px;
 }
 .customisable-mobile img{
-    /*-webkit-box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
-    /*-moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);*/
-    /*box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
+    -webkit-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
     border-radius: 10px;
 }
 .customisable-contents h3{
@@ -1232,9 +1232,9 @@ tbody tr td:last-child{
     border: 1px solid #d8eff9;
     padding: 52px 21px 0px 21px;
     border-radius: 5px;
-    /*-webkit-box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 9%);*/
-    /*-moz-box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 9%);*/
-    /*box-shadow: 0px 0px 25px 2px rgb(0 0 0 / 9%);*/
+    -webkit-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 0px 25px 2px rgba(0,0,0,0.09);
 }
 .pricing-boxes ul{
     padding: 27px 7px 20px 7px;
@@ -1283,7 +1283,7 @@ tbody tr td:last-child{
     min-height: 655px;
     background: rgb(206,230,237);
     background: linear-gradient(0deg, rgba(206,230,237,1) 0%, rgba(235,245,248,1) 54%, rgba(255,255,255,1) 100%);
-    /*box-shadow: 5px -1px 27px 6px rgb(0 0 0 / 18%);*/
+    box-shadow: 5px -1px 27px 6px rgba(0,0,0,0.18);
     border-radius: 10px;
     margin-top: 24px;
 }
@@ -1364,17 +1364,17 @@ tbody tr td:last-child{
 .parent-section2 .club-screenshot img{
     box-shadow: none !important;
 }
-/*.coach-section1-mobile img{*/
-/*    -webkit-box-shadow:21px 21px 15px -17px rgb(0 0 0 / 18%);*/
-/*    -moz-box-shadow: 21px 21px 15px -17px rgb(0 0 0 / 18%);*/
-/*    box-shadow: 21px 21px 15px -17px rgb(0 0 0 / 18%);*/
-/*    border-radius: 10px;*/
-/*}*/
-/*.payment-web img{*/
-/*    -webkit-box-shadow: -5px 13px 16px 0px rgb(0 0 0 / 9%);*/
-/*    -moz-box-shadow: -5px 13px 16px 0px rgb(0 0 0 / 9%);*/
-/*    box-shadow: -5px 13px 16px 0px rgb(0 0 0 / 9%);*/
-/*}*/
+.coach-section1-mobile img{
+    -webkit-box-shadow:21px 21px 15px -17px rgba(0,0,0,0.18);
+    -moz-box-shadow: 21px 21px 15px -17px rgba(0,0,0,0.18);
+    box-shadow: 21px 21px 15px -17px rgba(0,0,0,0.18);
+    border-radius: 10px;
+}
+.payment-web img{
+    -webkit-box-shadow: -5px 13px 16px 0px rgba(0,0,0,0.09);
+    -moz-box-shadow: -5px 13px 16px 0px rgba(0,0,0,0.09);
+    box-shadow: -5px 13px 16px 0px rgba(0,0,0,0.09);
+}
 .coach-setion2-right img{
     margin-left: 10px;
 }
@@ -1390,11 +1390,11 @@ tbody tr td:last-child{
     border-radius: 10px;
 
 }
-/*.coach-blue-section img{*/
-/*    -webkit-box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);*/
-/*    box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*}*/
+.coach-blue-section img{
+    -webkit-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+}
 .coach-blue-section{
     background-image: url('../assets/images/coach-blue.png');
     min-height: 670px;
@@ -1553,12 +1553,12 @@ tbody tr td:last-child{
     padding-left: 320px;
     max-width: 100%;
 }
-/*.invite-parents-sec img{*/
-/*    -webkit-box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);*/
-/*    box-shadow: 10px 13px 16px 0px rgb(0 0 0 / 18%);*/
-/*    border-radius: 10px;*/
-/*}*/
+.invite-parents-sec img{
+    -webkit-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    box-shadow: 10px 13px 16px 0px rgba(0,0,0,0.18);
+    border-radius: 10px;
+}
 .manage-admin-section{
     background-image: url('../assets/images/admin-banner.png');
     min-height: 643px;
@@ -1572,9 +1572,9 @@ tbody tr td:last-child{
     border-radius: 10px;
     width: 430px;
     float: right;
-    /*-webkit-box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
-    /*-moz-box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);*/
-    /*box-shadow: 0px 13px 16px 0px rgb(0 0 0 / 18%);*/
+    -webkit-box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);
+    box-shadow: 0px 13px 16px 0px rgba(0,0,0,0.18);
     margin-right: -50px;
     min-height: 400px;
 }
