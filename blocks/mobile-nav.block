@@ -6,9 +6,9 @@
   <ul>
     {.repeated section items}
         {.folder?}
-          <li id="tituloMenu1">
+          <li>
             <a href="{collection.fullUrl}" type="button">{collection.navigationTitle} <span class="caret"></span></a>
-            <div id="menu1" style="display:none;">
+            <div id="menu1">
             <ul>
               {.repeated section items}
                 {.collection?}
