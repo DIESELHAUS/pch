@@ -70,17 +70,21 @@
     </section>
     <section class="manage-admin-section">
         <div class="container">
-            <div class="row ">
-                <div class="col-md-7">
-                    <img src="../assets/images/admin-web.png">
-                </div>
-                <div class="col-md-5">
-                    <div class="manage-admin-box">
-                        <h3 class="ft-35 fw-bold prm-clr">Manage<br> Admins & Staff</h3>
-                        <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+        <squarespace:query collection="event-manage-admin">
+            {.repeated section items}
+                <div class="row ">
+                    <div class="col-md-7">
+                        <img src="{assetUrl}">
+                    </div>
+                    <div class="col-md-5">
+                        <div class="manage-admin-box">
+                            <h3 class="ft-35 fw-bold prm-clr">{title}</h3>
+                            {body}
+                        </div>
                     </div>
                 </div>
-            </div>
+            {.end}
+        </squarespace:query>
         </div>
 
     </section>
