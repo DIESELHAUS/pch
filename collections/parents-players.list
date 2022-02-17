@@ -67,18 +67,22 @@
     </section>
     <section class="club-blue-section coach-blue-section parents-blue-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-8 flex">
-                    <img src="../assets/images/coach-blue1.png">
-                    <div class="coach-blue2-image">
-                        <img src="../assets/images/coach-club2.png">
+            <squarespace:query collection="coaches-join-club">
+               {.repeated section items}
+                    <div class="row">
+                        <div class="col-md-8 flex">
+                            <img src="../assets/images/coach-blue1.png">
+                            <div class="coach-blue2-image">
+                                <img src="../assets/images/coach-club2.png">
+                            </div>
+                        </div>
+                        <div class="col-md-4 white coach-blue-right">
+                            <h3 class="ft-35 fw-bold">{title}</h3>
+                            <p>{body}</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4 white coach-blue-right">
-                    <h3 class="ft-35 fw-bold">Join Clubs <br>& Teams</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
-                </div>
-            </div>
+                {.end}
+            </squarespace:query>
         </div>
 
     </section>
@@ -86,16 +90,20 @@
     <section class="club-customisable coach-section3">
         <div class="container">
             <div class="row">
+            <squarespace:query collection="parents-rsvp-games">
+                {.repeated section items}
                 <div class="col-md-8">
                     <div class="rsvp-sec">
-                        <img src="../assets/images/rsvp.png">
+                        <img src="{assetUrl}">
                     </div>
 
                 </div>
                  <div class="col-md-4 customisable-contents">
-                    <h3 class="ft-35 fw-bold prm-clr">RSVP for <br> Games & Events</h3>
-                    <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>
+                    <h3 class="ft-35 fw-bold prm-clr">{title}</h3>
+                    {body}
                 </div>
+                {.end}
+                </squarespace:query>
             </div>
         </div>
     </section>
