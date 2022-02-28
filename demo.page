@@ -2,9 +2,6 @@
     <div class="container demo-container">
         <div class="row">
             <div class="col-md-7 demo-left-sec">
-                <div>
-                    <h3 class="ft-30 fw-bold prm-clr">Contact us now!</h3>
-                    <p>To schedule a demo or for all other information, please fill out the form below. Please let us know if you’re a parent, player, club or event organization</p>
                     <div>
                         <squarespace:query collection="demo-form" limit="10">
                             {.repeated section items}
@@ -12,7 +9,6 @@
                             {.end}
                         </squarespace:query>
                     </div>
-                </div>
             </div>
             <div class="col-md-5 demo-right-sec">
                 <div class="demo-right">
