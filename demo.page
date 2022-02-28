@@ -2,13 +2,11 @@
     <div class="container demo-container">
         <div class="row">
             <div class="col-md-7 demo-left-sec">
-
                         <squarespace:query collection="demo-form" limit="10">
                             {.repeated section items}
                                 {body}
                             {.end}
                         </squarespace:query>
-
             </div>
             <div class="col-md-5 demo-right-sec">
                 <div class="demo-right">
