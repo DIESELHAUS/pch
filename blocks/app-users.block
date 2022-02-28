@@ -1,4 +1,4 @@
-    <div class="col-md-3">
+    <div class="col-md-4">
       <div class="users-box center">
           <div class="user-boc-icon">
               <img src="{assetUrl}" alt="user-points">
