@@ -154,7 +154,7 @@
                                          <div class="col-md-3">
                                              <div class="users-box">
                                                  <div class="user-boc-icon">
-                                                     <img src="images/event-management.png" alt="user-points">
+                                                     <img src="{assetUrl}" alt="user-points">
                                                  </div>
                                                  <h3 class="center white ft-22 fw-bold">{title}</h3>
                                                  <ul>{body}</ul>
