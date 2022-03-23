@@ -1,9 +1,13 @@
-    <div class="col-md-4">
-      <div class="users-box center">
-          <div class="user-boc-icon">
-              <img src="{assetUrl}" alt="user-points">
-          </div>
-          <h3 class="white ft-22 fw-bold">{title}</h3>
-          <p>{body}</p>
-      </div>
+<div class="col-md-12">
+        <div class="users-box">
+            <div class="user-blue-box">
+                <div class="user-boc-icon">
+                    <img src="{assetUrl}" alt="user-points">
+                </div>
+            </div>
+            <div>
+                <h3 class="ft-22 fw-bold">{title}</h3>
+                <p>{body}</p>
+            </div>
+        </div>
     </div>
