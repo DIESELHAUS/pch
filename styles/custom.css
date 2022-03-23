@@ -610,15 +610,17 @@ header{
 }
 section.types-of-users{
     position: relative;
-    padding-top: 78px;
-    padding-bottom: 108px;
+    padding:150px 0 200px 0;
 }
 .users-left-section{
     position: absolute;
-    top: -75px;
+    top:7%;
+}
+section.types-of-users.features{
+    padding: 100px 0 120px 0;
 }
 .types-of-users h3{
-    line-height: 84px;
+    /*line-height: 84px;*/
 }
 .users-left-section img{
     border-radius: 0px 525px 525px 0px;
@@ -626,19 +628,30 @@ section.types-of-users{
     border-left: 0;
 }
 .types-of-users .common-contents, .how-it-works-top-sec{
-    width: 500px;
+    /*width: 500px;*/
     margin: 0 auto;
     max-width: 100%;
+}
+.how-it-works-top-sec{
+    max-width: 500px;
 }
 .types-of-users .common-contents p{
     margin-top: -12px;
 }
 .users-box{
-    background-color: var(--secondary-color);
-    min-height: 423px;
+    display: flex;
+    /*background-color: var(--secondary-color);*/
     border-radius: 5px;
-    padding: 50px 15px 44px 15px;
-    margin-top: 33px;
+    /*padding:50px 60px;*/
+    margin-top: 20px;
+    align-items: center;
+}
+.users-box .user-blue-box{
+    background-color: var(--secondary-color);
+    /*min-height: 423px;*/
+    border-radius: 5px;
+    padding: 50px 60px;
+    margin-right: 50px;
 }
 .user-boc-icon {
     background-color: #fff;
@@ -647,24 +660,27 @@ section.types-of-users{
     padding: 18px;
     border-radius: 50%;
     object-fit: none;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.3s ease 0s;
 }
 .users-box h3{
-    line-height: 26px;
-    padding-top: 33px;
+    margin-bottom: 10px;
+    color: var(--secondary-color);
 }
 .users-box p{
-    color: #fff;
+    color: #143d4a;
     line-height: 24px;
+    margin-bottom: 0;
 }
 .types-of-users .users-box:hover .user-boc-icon img {
     filter: brightness(0) invert(1);
 }
 .types-of-users .users-box:hover .user-boc-icon {
     background-color: #1caadd;
+    transition: all 0.3s ease 0s;
 }
 .how-it-works-left h3, .half-boxes h4{
     line-height: 44px;
@@ -694,20 +710,26 @@ section.types-of-users{
 }
 section.how-it-works-section{
     position: relative;
-    padding-top: 66px;
-    padding-bottom: 330px;
+    padding-top: 120px;
+    padding-bottom: 150px;
+    background-color: #dcf1fb;
 }
 .how-it-work-right-sec{
     position: absolute;
     right: 0;
     top: 0;
-    z-index: -1;
+    z-index: 0;
+    height: 100%;
 }
 .how-it-work-right-sec img{
-    width: 490px;
-    height: 985px;
+    width: 500px;
+    height: 100%;
     object-fit: cover;
 
+}
+.how-it-works-section > .container{
+    z-index: 999;
+    position: relative;
 }
 .table-hover>tbody>tr:hover {
     background-color: unset !important;
