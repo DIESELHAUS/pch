@@ -129,7 +129,6 @@
                           <squarespace:query collection="home-section-1" limit="1">
                              {.repeated section items}
                                   <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
-                                  <p>{body}</p>
                               {.end}
                           </squarespace:query>
                           </div>
@@ -141,25 +140,31 @@
                                     {@|apply app-users.block}
                                 {.end}
                               </squarespace:query>
-                              </div>
-
-                              <div class="row app-features-row">
-                                  <div class="col-md-12">
-                                  <squarespace:query collection="home-section-2" limit="1">
-                                     {.repeated section items}
-                                      <div class="common-contents center">
-                                          <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
-                                          <p>{body}</p>
-                                       </div>
-                                       <div class="app-feature-image-sec">
-                                        </div>
-                                        {.end}
-                                    </squarespace:query>
-                                  </div>
-                              </div>
                           </div>
-
-                      </section>
+                        </section>
+                         <section class="types-of-users features">
+                                 <div class="common-contents center">
+                                     <h3 class="prm-clr ft-35 fw-bold">App Features</h3>
+                                     <p>More of what you need. Less of what you don’t. All in one app.</p>
+                                 </div>
+                                 <div class="container">
+                                     <div class="row">
+                                     <squarespace:query collection="home-section-2" limit="4">
+                                        {.repeated section items}
+                                         <div class="col-md-3">
+                                             <div class="users-box">
+                                                 <div class="user-boc-icon">
+                                                     <img src="images/event-management.png" alt="user-points">
+                                                 </div>
+                                                 <h3 class="center white ft-22 fw-bold">{title}</h3>
+                                                 <ul>{body}</ul>
+                                             </div>
+                                         </div>
+                                        {.end}
+                                        </squarespace:query>
+                                     </div>
+                                 </div>
+                             </section>
                     <squarespace:query collection="home-how-it-work">
                         {.repeated section items}
                           <section class="how-it-works-section">
