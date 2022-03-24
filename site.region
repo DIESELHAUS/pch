@@ -2414,8 +2414,8 @@
                                                  <squarespace:query collection="home-graph" limit="4">
                                                      {.repeated section items}
                                                      <li>
-                                                         <h4>Our mobile app is our focus, not an afterthought.</h4>
-                                                         <p>app basedworld, we know you’re used to accessing and managing your life on the go. Managing your events, league, clubs, teams and players shouldn’t be any different. We specifically designed our platform to give you the flexibility and convenience of doing it at anytime and from anywhere.</p>
+                                                         <h4>{title}</h4>
+                                                         {body}
                                                      </li>
                                                         {.end}
                                                      </squarespace:query>
