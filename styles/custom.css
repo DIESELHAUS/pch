@@ -575,7 +575,8 @@ header{
 .home-banner-left p{
     padding-right: 60px;
 }
-.blue-banner button, .pch-blue-banner-contents button{
+.blue-banner button, .pch-blue-banner-contents button,
+.home-banner-left a.sqs-block-button-element--large {
     background-color: var(--secondary-color);
     border: none;
     padding: 22px 80px;
