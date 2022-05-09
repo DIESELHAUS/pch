@@ -580,6 +580,7 @@ header{
 .blue-banner a.sqs-block-button-element--large {
     background-color: var(--secondary-color);
     border: none;
+    box-shadow: 0 !important;
     padding: 22px 80px;
     font-weight: 700;
     border-radius: 5px;
