@@ -543,7 +543,7 @@ header{
 
 .home-banner{
     /*background-image: url('../assets/images/home-banner.png');*/
-    padding-top: 175px !important;
+    padding-top: 75px !important;
 }
 .club-banner{
     background-image: url('../assets/images/club-banner.png');
@@ -575,20 +575,19 @@ header{
 .home-banner-left p{
     padding-right: 60px;
 }
-.blue-banner button, .pch-blue-banner-contents button,
-.home-banner-left a.sqs-block-button-element--large {
+.blue-banner button, .pch-blue-banner-contents button{
     background-color: var(--secondary-color);
     border: none;
     padding: 22px 80px;
     font-weight: 700;
-    border-radius: 10px !important;
+    border-radius: 5px;
     font-size: 22px;
     line-height: 40px;
     color: #fff;
 }
 .home-banner-left p{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 23px;
+    padding-bottom: 27px;
 }
 .home-banner-right-sec{
     position: absolute;
