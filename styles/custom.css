@@ -565,6 +565,7 @@ header{
 }
 .blue-banner h1{
     line-height: 84px;
+    padding-bottom: 25px;
 }
 .common-contents p{
     color: var(--primary-color);
