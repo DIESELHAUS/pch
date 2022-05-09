@@ -3,6 +3,7 @@
           <div class="row common-contents">
                <div class="col-md-6 home-banner-left">
                   <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                  {body}
                   <!--<a href="#"><button>Download the Free App</button></a>-->
               </div>
               <div class="col-md-6 home-banner-right">
