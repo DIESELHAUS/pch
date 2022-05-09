@@ -586,8 +586,8 @@ header{
     color: #fff;
 }
 .home-banner-left p{
-    padding-top: 23px;
-    padding-bottom: 27px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .home-banner-right-sec{
     position: absolute;
