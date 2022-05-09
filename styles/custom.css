@@ -588,6 +588,9 @@ header{
     line-height: 40px;
     color: #fff;
 }
+.large-button-style-raised .sqs-block-button .sqs-block-button-element--large {
+    box-shadow: 0 !important;
+}
 .home-banner-left p{
     padding-top: 0px;
     padding-bottom: 0px;
