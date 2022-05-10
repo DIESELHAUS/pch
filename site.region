@@ -2460,7 +2460,7 @@
                               <div class="how-it-work-right-sec">
                                   <img src="{assetUrl}">
                               </div>
-                            {.end}
+                              {.end}
                           </section>
                           
                       </squarespace:query>
@@ -2490,7 +2490,7 @@
                               <img src="../assets/images/phone.png" alt="half-image">
                           </div>
                       </section>
-                    
+
                       <section class="pch-blue-banner-section center">
                               <div class="container">
                                   <div class="pch-blue-banner-contents">
@@ -2499,7 +2499,6 @@
                                   </div>
                               </div>
                       </section>
-
                       <section class="hm-testimonial-section center">
                           <div class="container">
                               <div class="row">
@@ -2516,7 +2515,8 @@
                                           <h6 class="testimonial-body">{body}</h6>
                                           <h4>{title}</h4>
                                       </div>
-                                    
+                                    {.end}
+                                  </squarespace:query>
                               </div>
                           </div>
                       </section>
