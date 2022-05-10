@@ -17,6 +17,7 @@
             {.end}
 
     <section class="account-pricing-section">
+	<squarespace:query collection="pricing-users" limit="4">
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -33,7 +34,7 @@
                 </div>
             </div>
             <div class="row pricing-box-row">
-                <squarespace:query collection="pricing-users" limit="4">
+                
                     {.repeated section items}
                         <div class="col-md-3  pricing-box-col">
                             <div class="pricing-boxes">
@@ -42,9 +43,10 @@
                             </div>
                         </div>
                     {.end}
-                </squarespace:query>
+                
             </div>
         </div>
+	</squarespace:query>
     </section>
 
     <section class="download-app-section blue-download-app-section">
