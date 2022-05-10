@@ -117,27 +117,7 @@
               {squarespace.main-content}
 
 
-                        <section class="types-of-users">
-                          <div class="users-left-section">
-                              <img src="../assets/images/user-left.png" alt="users">
-                          </div>
-                          <div class="common-contents center">
-                          <squarespace:query collection="home-section-1" limit="1">
-                             {.repeated section items}
-                                  <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
-                              {.end}
-                          </squarespace:query>
-                          </div>
-
-                          <div class="container">
-                              <div class="row">
-                              <squarespace:query collection="home-app-user" limit="4">
-                                {.repeated section items}
-                                    {@|apply app-users.block}
-                                {.end}
-                              </squarespace:query>
-                          </div>
-                        </section>
+                        
                          <section class="types-of-users features">
                                  <div class="common-contents center">
                                      <h3 class="prm-clr ft-35 fw-bold">App Features</h3>
