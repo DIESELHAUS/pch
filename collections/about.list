@@ -42,15 +42,20 @@
 </section>
 
     <section class="download-app-section blue-download-app-section">
+	<squarespace:query collection="inner-top-footer" limit="1">
         <div class="container">
+	{.repeated section items}
             <div class="row">
                 <div class="col-md-8 download-left-sec">
-                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
-                    <a href="#"><button>Contact us for a Demo</button></a>
+                    <!--<h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
+                    <a href="#"><button>Contact us for a Demo</button></a>-->
+		  {body}
                 </div>
                 <div class="col-md-4 download-right-sec">
                     <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
                 </div>
             </div>
+	{.end}
         </div>
+	</squarespace:query>
     </section>
