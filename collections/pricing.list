@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
-                    <h3 class="ft-35 fw-bold prm-clr">{collection.description}</h3>
+                    <h3 class="ft-35 fw-bold prm-clr">Free to Create an Account or Individual Profile.<br><span class="sec-clr">No Commitment!</span></h3>
                 </div>
                 <div class="col-md-2">
                 </div>
