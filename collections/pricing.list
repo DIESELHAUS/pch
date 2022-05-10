@@ -50,7 +50,7 @@
     </section>
 
     <section class="download-app-section blue-download-app-section">
-	<squarespace:query collection="top-footer" limit="1">
+	<squarespace:query collection="inner-top-footer" limit="1">
         <div class="container">
 	{.repeated section items}
             <div class="row">
