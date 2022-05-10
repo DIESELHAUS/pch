@@ -172,11 +172,12 @@
                          </section>
                              
                       <section class="graph-section">
+                         <squarespace:query collection="home-graph" limit="4">
                                      <div class="container">
                                          <div class="row">
                                              <div class="col-md-8 offset-md-2 graph-small-screen">
                                                  <div class="common-contents center">
-                                                     <h3 class="prm-clr ft-35 fw-bold">Event Organizers Parents & PlayersClubs & TeamsHow is PCH different from other youth sports management platforms?</h3>
+                                                     <h3 class="prm-clr ft-35 fw-bold">{{collection.description}}</h3>
                                                  </div>
                                              </div>
                                          </div>
@@ -2417,18 +2418,19 @@
                                              </div>
                                              <div class="col-md-6">
                                                  <ul>
-                                                 <squarespace:query collection="home-graph" limit="4">
+                                                 
                                                      {.repeated section items}
                                                      <li>
                                                          <h4>{title}</h4>
                                                          {body}
                                                      </li>
                                                         {.end}
-                                                     </squarespace:query>
+                                                     
                                                  </ul>
                                              </div>
                                          </div>
                                      </div>
+                                     </squarespace:query>
                                  </section>
                                  
                                  
