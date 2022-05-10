@@ -146,13 +146,14 @@
                         </section>
                         
                         <section class="types-of-users features">
+                            <squarespace:query collection="home-section-2" limit="4">
                              <div class="common-contents center">
-                                 <h3 class="prm-clr ft-35 fw-bold">App Features</h3>
+                                 <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
                                  <p>More of what you need. Less of what you don’t. All in one app.</p>
                              </div>
                              <div class="container">
                                  <div class="row">
-                                 <squarespace:query collection="home-section-2" limit="4">
+                                 
                                     {.repeated section items}
                                      <div class="col-md-3">
                                          <div class="users-box">
@@ -164,9 +165,10 @@
                                          </div>
                                      </div>
                                     {.end}
-                                    </squarespace:query>
+                                    
                                  </div>
                              </div>
+                            </squarespace:query>
                          </section>
                              
                       <section class="graph-section">
