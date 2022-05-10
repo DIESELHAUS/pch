@@ -2437,13 +2437,14 @@
                       <squarespace:query collection="home-how-it-work">
                         
                           <section class="how-it-works-section">
+                            {.repeated section items}
                                 <div class="container">
                                    <div class="center how-it-works-top-sec">
                                       <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
                                       <p>{collection.description}</p>
                                    </div>
                                    <div class="row">
-                                    {.repeated section items}
+                                    
                                       <div class="col-md-4 how-it-works-left">
                                          <!--<h3 class="prm-clr ft-35 fw-bold">Donec maximus tincidunt metus uis</h3>
                                          <p>Aliquam tempus finibus gravida. Ut plaat lacus cursus tellus egestas, porta egest as tellus placerat. Suspendisse commod leo in sollicitudin ullamcorper, liberoro eleifend augue, at pretium elit diam id mi auris imperdiet sit amet lorem.</p>-->
@@ -2452,13 +2453,14 @@
                                       <div class="col-md-8 how-it-works-right">
                                          <img src="../assets/images/ipad.png" alt="ipad-preview">
                                       </div>
-                                    {.end}
+                                    
                                    </div>
                                 </div>
                             
                               <div class="how-it-work-right-sec">
                                   <img src="{assetUrl}">
                               </div>
+                            {.end}
                           </section>
                           
                       </squarespace:query>
