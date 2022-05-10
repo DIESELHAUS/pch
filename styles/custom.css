@@ -577,7 +577,7 @@ header{
     padding-right: 60px;
 }
 .blue-banner button, .pch-blue-banner-contents button,
-.blue-banner a.sqs-block-button-element--large {
+a.sqs-block-button-element--large {
     background-color: var(--secondary-color);
     border: none;
     box-shadow: 0 0px 0 0 transparent !important;
