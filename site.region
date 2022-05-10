@@ -2490,15 +2490,20 @@
                               <img src="../assets/images/phone.png" alt="half-image">
                           </div>
                       </section>
-
+                    
+                    <squarespace:query collection="home-section-7" limit="2">
                       <section class="pch-blue-banner-section center">
+                                {.repeated section items}
                               <div class="container">
                                   <div class="pch-blue-banner-contents">
                                       <h3 class="prm-clr ft-35 fw-bold">Quisque porttitor, velit eu volutpat rhoncus, ex augue euismod nunc, et fermentum enim velit .</h3>
                                       <a href="#"><button>Download the App</button></a>
                                   </div>
                               </div>
+                                {.end}
+                                  
                       </section>
+                    </squarespace:query>
                       <section class="hm-testimonial-section center">
                           <div class="container">
                               <div class="row">
@@ -2515,8 +2520,7 @@
                                           <h6 class="testimonial-body">{body}</h6>
                                           <h4>{title}</h4>
                                       </div>
-                                    {.end}
-                                  </squarespace:query>
+                                    
                               </div>
                           </div>
                       </section>
