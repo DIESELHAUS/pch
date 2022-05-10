@@ -177,7 +177,7 @@
                                          <div class="row">
                                              <div class="col-md-8 offset-md-2 graph-small-screen">
                                                  <div class="common-contents center">
-                                                     <h3 class="prm-clr ft-35 fw-bold">{{collection.description}}</h3>
+                                                     <h3 class="prm-clr ft-35 fw-bold">{collection.description}</h3>
                                                  </div>
                                              </div>
                                          </div>
