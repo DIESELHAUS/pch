@@ -149,7 +149,7 @@
                             <squarespace:query collection="home-section-2" limit="4">
                              <div class="common-contents center">
                                  <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
-                                 <p>More of what you need. Less of what you don’t. All in one app.</p>
+                                 <p>{collection.description}</p>
                              </div>
                              <div class="container">
                                  <div class="row">
