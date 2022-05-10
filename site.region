@@ -116,7 +116,11 @@
             
               {squarespace.main-content}
 
-
+                <squarespace:query collection="home-hero-banner">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
                         
                             <section class="types-of-users features">
                                  <div class="common-contents center">
