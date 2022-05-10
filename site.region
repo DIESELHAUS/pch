@@ -2540,7 +2540,9 @@
 
                     {.or}
                      <section class="main-content" data-content-field="main-content">
+                       <h1>Hey!</h1>
                        {squarespace.main-content}
+                       
                      </section>
                    {.end}
              </main>
