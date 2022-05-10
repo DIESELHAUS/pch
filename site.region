@@ -2439,7 +2439,7 @@
                           <section class="how-it-works-section">
                                 <div class="container">
                                    <div class="center how-it-works-top-sec">
-                                      <h3 class="prm-clr ft-35 fw-bold">How does it work?</h3>
+                                      <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
                                       <p>Suspendisse sed finibus nunc. Duis eget mollis nibh. Donec laoreet metus arcu, a egestas elit volutpat ut. Suspendisse in nulla varius, posuere metus id, varius mi.</p>
                                    </div>
                                    <div class="row">
