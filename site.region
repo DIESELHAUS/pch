@@ -116,6 +116,89 @@
               {squarespace.main-content}
 
                     
+                    <squarespace:query collection="home-how-it-work">
+                        {.repeated section items}
+                          <section class="how-it-works-section">
+                            {body}
+                              <div class="how-it-work-right-sec">
+                                  <img src="{assetUrl}">
+                              </div>
+                          </section>
+                          {.end}
+                    </squarespace:query>
+
+                      <section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
+                          <div class="hm-half-section-left">
+                              <img src="../assets/images/half-left.png" alt="half-image">
+                          </div>
+
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-7">
+                                  </div>
+                                  <div class="col-md-5">
+                                  <squarespace:query collection="home-section-4">
+                                     {.repeated section items}
+                                      <div class="half-boxes">
+                                          <h4 class="white fw-bold ft-30">{title}</h4>
+                                          <p>{body}</p>
+                                      </div>
+                                   {.end}
+                                   </squarespace:query>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="half-phone-section">
+                              <img src="../assets/images/phone.png" alt="half-image">
+                          </div>
+                      </section>
+
+                      <section class="pch-blue-banner-section center">
+                              <div class="container">
+                                  <div class="pch-blue-banner-contents">
+                                      <h3 class="prm-clr ft-35 fw-bold">Quisque porttitor, velit eu volutpat rhoncus, ex augue euismod nunc, et fermentum enim velit .</h3>
+                                      <a href="#"><button>Download the App</button></a>
+                                  </div>
+                              </div>
+                      </section>
+                      <section class="hm-testimonial-section center">
+                          <div class="container">
+                              <div class="row">
+                               <squarespace:query collection="home-section-6" limit="2">
+                                   {.repeated section items}
+                                      <div class="col-md-6 testimonial-boxes">
+                                      <div class="taring-stars">
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                          <i class="fas fa-star"></i>
+                                      </div>
+                                          <h6 class="testimonial-body">{body}</h6>
+                                          <h4>{title}</h4>
+                                      </div>
+                                    {.end}
+                                  </squarespace:query>
+                              </div>
+                          </div>
+                      </section>
+
+                      <section class="download-app-section">
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-7 download-left-sec">
+                                      <h2 class="ft-46 white fw-bold">Download PCH App Now!</h2>
+                                      <div class="download-logos">
+                                          <a href="#" target="_blank"><img src="../assets/images/App-Store.png" alt="app-store"></a>
+                                          <a href="#" target="_blank"><img src="../assets/images/Google-Play.png" alt="Google-Play"></a>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-5 download-right-sec">
+                                      <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
+                                  </div>
+                              </div>
+                          </div>
+                      </section>
 
                     {.or}
                      <section class="main-content" data-content-field="main-content">
