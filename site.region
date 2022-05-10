@@ -122,23 +122,8 @@
                         {.end}
                      </squarespace:query>
                         
-                            <section class="types-of-users features">
-                                 <div class="common-contents center">
-                                     <h3 class="prm-clr ft-35 fw-bold">App Features</h3>
-                                     <p>More of what you need. Less of what you don’t. All in one app.</p>
-                                 </div>
-                                     
-                             </section>
+                            
                              <section class="graph-section">
-                                     <div class="container">
-                                         <div class="row">
-                                             <div class="col-md-8 offset-md-2 graph-small-screen">
-                                                 <div class="common-contents center">
-                                                     <h3 class="prm-clr ft-35 fw-bold">Event Organizers Parents & PlayersClubs & TeamsHow is PCH different from other youth sports management platforms?</h3>
-                                                 </div>
-                                             </div>
-                                         </div>
-                                     </div>
                                      <div class="container">
                                          <div class="row">
                                              <div class="col-md-6">
