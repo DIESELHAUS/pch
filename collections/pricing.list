@@ -6,7 +6,7 @@
                         <div class="col-md-6 home-banner-left">
                             <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
                             {body}
-                            <a href="#"><button>Contact us for a Demo</button></a>
+                            <!--<a href="#"><button>Contact us for a Demo</button></a>-->
                         </div>
                         <div class="col-md-6 about-banner-right-sec">
                             <img src="{assetUrl}" alt="abt-banner-right">
