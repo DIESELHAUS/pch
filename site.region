@@ -2428,6 +2428,17 @@
                                          </div>
                                      </div>
                                  </section>
+                                 
+                                 
+                      <squarespace:query collection="home-how-it-work">
+                        {.repeated section items}
+                          <section class="how-it-works-section">
+                              <div class="how-it-work-right-sec">
+                                  <img src="{assetUrl}">
+                              </div>
+                          </section>
+                          {.end}
+                      </squarespace:query>
 
                       <section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
                           <div class="hm-half-section-left">
