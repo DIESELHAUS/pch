@@ -569,8 +569,8 @@ header{
 }
 .common-contents p{
     color: var(--primary-color);
-    font-size: 15px;
-    font-weight: 400;
+    /* font-size: 15px;
+    font-weight: 400; */
     line-height: 25px;
 }
 .home-banner-left p{
