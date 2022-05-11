@@ -4,26 +4,25 @@
                         {.end}
                      </squarespace:query>
 
-<section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
-                          <div class="hm-half-section-left">
-                              <img src="../assets/images/half-left.png" alt="half-image">
+<section class="types-of-users">
+                          <div class="users-left-section">
+                              <img src="../assets/images/user-left.png" alt="users">
+                          </div>
+                          <div class="common-contents center">
+                              <squarespace:query collection="home-section-1" limit="1">
+                                 {.repeated section items}
+                                      <h3 class="prm-clr ft-35 fw-bold">{title}</h3>
+                                  {.end}
+                              </squarespace:query>
                           </div>
 
                           <div class="container">
                               <div class="row">
-                                  <div class="col-md-7">
-                                  </div>
-                                  <div class="col-md-5">
-                                     {.repeated section items}
-                                      <div class="half-boxes">
-                                          <h4 class="white fw-bold ft-30">{title}</h4>
-                                          <p>{body}</p>
-                                      </div>
-                                   {.end}
-                                  </div>
+                                  <squarespace:query collection="home-app-user" limit="4">
+                                    {.repeated section items}
+                                        {@|apply app-users.block}
+                                    {.end}
+                                  </squarespace:query>
                               </div>
-                          </div>
-                          <div class="half-phone-section">
-                              <img src="../assets/images/phone.png" alt="half-image">
-                          </div>
-                      </section>
+                            </div>
+                        </section>
