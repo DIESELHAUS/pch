@@ -1,20 +1,8 @@
-<section class="blue-banner about-banner inner-page-banner">
-        <div class="container">
-        <squarespace:query collection="about-banner">
-           {.repeated section items}
-            <div class="row common-contents">
-                <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                    {body}
-                    <!--<a href="#"><button>Create Your Free Profile</button></a>-->
-                </div>
-                <div class="col-md-6 about-banner-right-sec">
-                    <img src="../assets/images/about-round.png" alt="abt-banner-right">
-                </div>
-            </div>
-            {.end}
-        </squarespace:query>
-        </div>
+<squarespace:query collection="home-hero-banner">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
 
     </section>
     <section class="about-main-content-section">
