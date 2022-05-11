@@ -1,0 +1,29 @@
+<squarespace:query collection="home-hero-banner">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
+
+<section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
+                          <div class="hm-half-section-left">
+                              <img src="../assets/images/half-left.png" alt="half-image">
+                          </div>
+
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-7">
+                                  </div>
+                                  <div class="col-md-5">
+                                     {.repeated section items}
+                                      <div class="half-boxes">
+                                          <h4 class="white fw-bold ft-30">{title}</h4>
+                                          <p>{body}</p>
+                                      </div>
+                                   {.end}
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="half-phone-section">
+                              <img src="../assets/images/phone.png" alt="half-image">
+                          </div>
+                      </section>
