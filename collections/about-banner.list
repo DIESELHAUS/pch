@@ -1,4 +1,4 @@
-<section class="blue-banner about-banner inner-page-banner">
+    <section class="blue-banner about-banner inner-page-banner">
         <div class="container">
         <squarespace:query collection="about-banner">
            {.repeated section items}
@@ -14,7 +14,7 @@
             </div>
             {.end}
         </squarespace:query>
-        </div>
+    </div>
 
     </section>
     <section class="about-main-content-section">
