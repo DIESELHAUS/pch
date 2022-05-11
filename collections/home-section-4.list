@@ -1,56 +1,29 @@
-<section class="blue-banner about-banner inner-page-banner">
-        <div class="container">
-        <squarespace:query collection="about-banner">
-           {.repeated section items}
-            <div class="row common-contents">
-                <div class="col-md-6 home-banner-left">
-                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                    {body}
-                    <!--<a href="#"><button>Create Your Free Profile</button></a>-->
-                </div>
-                <div class="col-md-6 about-banner-right-sec">
-                    <img src="../assets/images/about-round.png" alt="abt-banner-right">
-                </div>
-            </div>
-            {.end}
-        </squarespace:query>
-        </div>
+<squarespace:query collection="home-hero-banner">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
 
-    </section>
-    <section class="about-main-content-section">
-        <div class="container">
-            <div class="row">
-            <script type="text/javascript">console.log({@|json})</script>
-               {.repeated section items}
-                <div class="col-md-7">
-                    <img src="{assetUrl}" alt="about-picture">
-                </div>
-                <div class="col-md-5 about-main-content-right">
-                    <h3 class="ft-35 prm-clr fw-bold">{title}</h3>
-                    {body}
+<section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
+                          <div class="hm-half-section-left">
+                              <img src="../assets/images/half-left.png" alt="half-image">
+                          </div>
 
-                </div>
-                {.end}
-            </div>
-            <div class="row about-content-row2">
-                <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget vulputate mauris. Morbi in turpis ornare, pharetra lectus quis, luctus tortor. Nulla facilisllus maximus auctor rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec orci enim, varius pellentesque bibendum convallisalesuada tempor tortor. Quisque quis velit et lacus auctor feugiat et a nibh.Sed dapibus consequat felis ut condimentum. Vivamus tempus scelerisque ipsum, vitae malesuada nunc ultricies porta. Donec eget quam nisi. Pellentesque sollicitudin varius metus, ac blandit est accumsan sit amet. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section class="download-app-section blue-download-app-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 download-left-sec">
-                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
-                    <a href="#"><button>Contact us for a Demo</button></a>
-                </div>
-                <div class="col-md-4 download-right-sec">
-                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
-                </div>
-            </div>
-        </div>
-    </section>
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-md-7">
+                                  </div>
+                                  <div class="col-md-5">
+                                     {.repeated section items}
+                                      <div class="half-boxes">
+                                          <h4 class="white fw-bold ft-30">{title}</h4>
+                                          <p>{body}</p>
+                                      </div>
+                                   {.end}
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="half-phone-section">
+                              <img src="../assets/images/phone.png" alt="half-image">
+                          </div>
+                      </section>
