@@ -1,3 +1,9 @@
+<squarespace:query collection="home-hero-banner">
+                       {.repeated section items}
+                        {@|apply hero-banner.block}
+                        {.end}
+                     </squarespace:query>
+
 <section class="hm-testimonial-section center">
                           <div class="container">
                               <div class="row">
