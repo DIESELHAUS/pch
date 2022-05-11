@@ -1,21 +1,22 @@
-<script type="text/javascript">console.log({@|json})</script>
-   {.repeated section items}
-        <section class="blue-banner pricing-banner inner-page-banner">
-                <div class="container">
-                    <div class="row common-contents">
-                        <div class="col-md-6 home-banner-left">
-                            <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
-                            {body}
-                            <!--<a href="#"><button>Contact us for a Demo</button></a>-->
-                        </div>
-                        <div class="col-md-6 about-banner-right-sec">
-                            <img src="{assetUrl}" alt="abt-banner-right">
-                        </div>
-                    </div>
+<section class="blue-banner about-banner inner-page-banner">
+        <div class="container">
+        <squarespace:query collection="about-banner">
+           {.repeated section items}
+            <div class="row common-contents">
+                <div class="col-md-6 home-banner-left">
+                    <h1 class="sec-clr ft-71 fw-bold">{title}</h1>
+                    {body}
+                    <!--<a href="#"><button>Create Your Free Profile</button></a>-->
                 </div>
-            </section>
+                <div class="col-md-6 about-banner-right-sec">
+                    <img src="../assets/images/about-round.png" alt="abt-banner-right">
+                </div>
+            </div>
             {.end}
+        </squarespace:query>
+        </div>
 
+    </section>
     <section class="account-pricing-section">
 	<squarespace:query collection="pricing-users" limit="4">
         <div class="container">
@@ -45,25 +46,6 @@
                     {.end}
                 
             </div>
-        </div>
-	</squarespace:query>
-    </section>
-
-    <section class="download-app-section blue-download-app-section">
-	<squarespace:query collection="inner-top-footer" limit="1">
-        <div class="container">
-	{.repeated section items}
-            <div class="row">
-                <div class="col-md-8 download-left-sec">
-                    <!--<h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
-                    <a href="#"><button>Contact us for a Demo</button></a>-->
-		  {body}
-                </div>
-                <div class="col-md-4 download-right-sec">
-                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
-                </div>
-            </div>
-	{.end}
         </div>
 	</squarespace:query>
     </section>
