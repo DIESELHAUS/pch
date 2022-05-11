@@ -345,6 +345,7 @@ a:hover, a:focus {
 .header-menu li:last-child {
     padding: 0px !important;
     background-color: unset !important;
+    z-index: 99999;
 }
 .mobile-menu-wrapper a{
     text-transform: capitalize;
