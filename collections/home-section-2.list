@@ -4,26 +4,26 @@
                         {.end}
                      </squarespace:query>
 
-<section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
-                          <div class="hm-half-section-left">
-                              <img src="../assets/images/half-left.png" alt="half-image">
-                          </div>
-
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-7">
-                                  </div>
-                                  <div class="col-md-5">
-                                     {.repeated section items}
-                                      <div class="half-boxes">
-                                          <h4 class="white fw-bold ft-30">{title}</h4>
-                                          <p>{body}</p>
-                                      </div>
-                                   {.end}
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="half-phone-section">
-                              <img src="../assets/images/phone.png" alt="half-image">
-                          </div>
-                      </section>
+<section class="types-of-users features">
+                             <div class="common-contents center">
+                                 <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
+                                 <p>{collection.description}</p>
+                             </div>
+                             <div class="container">
+                                 <div class="row">
+                                 
+                                    {.repeated section items}
+                                     <div class="col-md-3">
+                                         <div class="users-box">
+                                             <div class="user-boc-icon">
+                                                 <img src="{assetUrl}" alt="user-points">
+                                             </div>
+                                             <h3 class="center white ft-22 fw-bold">{title}</h3>
+                                             {body}
+                                         </div>
+                                     </div>
+                                    {.end}
+                                    
+                                 </div>
+                             </div>
+                         </section>
