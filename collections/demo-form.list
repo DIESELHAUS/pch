@@ -1,28 +1,18 @@
-    <section class="about-main-content-section">
-        <div class="container">
-            <div class="row">
-            <script type="text/javascript">console.log({@|json})</script>
-               {.repeated section items}
-                <div class="col-md-12 about-main-content-right">
-                    <h3 class="ft-35 prm-clr fw-bold">{title}</h3>
-                    {body}
-
+<section class="blue-banner demo-banner">
+    <div class="container demo-container">
+        <div class="row">
+            <div class="col-md-7 demo-left-sec">
+                        <squarespace:query collection="demo-form" limit="10">
+                            {.repeated section items}
+                                {body}
+                            {.end}
+                        </squarespace:query>
+            </div>
+            <div class="col-md-5 demo-right-sec">
+                <div class="demo-right">
+                    <img src="../assets/images/demo-hand.png" alt="hand-mobile">
                 </div>
-                {.end}
             </div>
         </div>
+    </div>
 </section>
-
-    <section class="download-app-section blue-download-app-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 download-left-sec">
-                    <h2 class="ft-46 prm-clr fw-bold">Jump in and see for yourself!</h2>
-                    <a href="#"><button>Contact us for a Demo</button></a>
-                </div>
-                <div class="col-md-4 download-right-sec">
-                    <img src="../assets/images/hand-mobile.png" alt="hand-mobile">
-                </div>
-            </div>
-        </div>
-    </section>
