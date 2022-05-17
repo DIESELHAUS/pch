@@ -17,31 +17,6 @@
         </div>
 
     </section>
-<!--
-    <section class="about-main-content-section">
-        <div class="container">
-            <div class="row">
-            <script type="text/javascript">console.log({@|json})</script>
-               {.repeated section items}
-                <div class="col-md-7">
-                    <img src="{assetUrl}" alt="about-picture">
-                </div>
-                <div class="col-md-5 about-main-content-right">
-                    <h3 class="ft-35 prm-clr fw-bold">{title}</h3>
-                    {body}
-
-                </div>
-                {.end}
-            </div>
-            <div class="row about-content-row2">
-                <div class="col-md-12">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget vulputate mauris. Morbi in turpis ornare, pharetra lectus quis, luctus tortor. Nulla facilisllus maximus auctor rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec orci enim, varius pellentesque bibendum convallisalesuada tempor tortor. Quisque quis velit et lacus auctor feugiat et a nibh.Sed dapibus consequat felis ut condimentum. Vivamus tempus scelerisque ipsum, vitae malesuada nunc ultricies porta. Donec eget quam nisi. Pellentesque sollicitudin varius metus, ac blandit est accumsan sit amet. </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
     <section class="download-app-section blue-download-app-section">
 	<squarespace:query collection="inner-top-footer" limit="1">
         <div class="container">
