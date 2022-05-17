@@ -4,11 +4,46 @@
                 <div class="col-md-8 footer-menu">
                     <a href="https://pch-website.dieselhausdev.com/index.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
                    <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#"> features</a></li>
-                    <li><a href="#"> Demo</a> </li>
-                    <li><a href="#"> Download App</a></li>
-                    <li><a href="#"> Login</a></li>
+                    
+                    
+                        {.repeated section items}
+
+
+        {.folder?}
+
+          <li class="inner-dropdown">
+            <a href="{collection.fullUrl}" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+            <div class="inner-menu">
+            <ul>
+              {.repeated section items}
+                {.collection?}
+                  <li class="{.section active} active-link{.end}">
+                    <a href="{collection.fullUrl}" >{collection.navigationTitle}</a>
+                  </li>
+                {.end}
+                {.section externalLink}
+                  <li class="external-link">
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                  </li>
+                {.end}
+              {.end}
+            </ul>
+            </div>
+          </li>
+        {.or}
+        <li class="{.if active}active{.end}" >
+        {.section collection}
+
+            <a href="{fullUrl}" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+
+        {.end}
+        {.section externalLink}
+          <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+        {.end}
+        </li>
+      {.end}
+
+    {.end}
                 </ul>
                 </div>
                 <div class="col-md-4 social-footer-menu">
