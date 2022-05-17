@@ -689,7 +689,7 @@ section.types-of-users.features{
     filter: brightness(0) invert(1);
 }
 .types-of-users .users-box:hover .user-boc-icon {
-    background-color: #ff0000;
+    background-color: #db1f26;
     transition: all 0.3s ease 0s;
 }
 .how-it-works-left h3, .half-boxes h4{
