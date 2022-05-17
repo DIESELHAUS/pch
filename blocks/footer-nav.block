@@ -1,21 +1,46 @@
-{.section items}
-  <nav class="Footer-nav" data-content-field="navigation">
+<nav class="site-nav center-center">
+  <ul>
 
-    <div class="Footer-nav-group">{.repeated section @}{.collection?}{.folder?}{.equal? @index 1}{.or}</div><div class="Footer-nav-group">{.end}<div class="Footer-nav-folder-heading">{collection.navigationTitle}</div>
+    {.repeated section items}
 
-      {.repeated section items}
 
-        {.collection?}
-          <a href="{collection.fullUrl}" class="Footer-nav-folder-item">{collection.navigationTitle}</a>
+        {.folder?}
+
+          <li class="inner-dropdown">
+            <a href="{collection.fullUrl}" type="button">{collection.navigationTitle} <span class="caret"></span></a>
+            <div class="inner-menu">
+            <ul>
+              {.repeated section items}
+                {.collection?}
+                  <li class="{.section active} active-link{.end}">
+                    <a href="{collection.fullUrl}" >{collection.navigationTitle}</a>
+                  </li>
+                {.end}
+                {.section externalLink}
+                  <li class="external-link">
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+                  </li>
+                {.end}
+              {.end}
+            </ul>
+            </div>
+          </li>
         {.or}
-          {.section externalLink}
-            <a href="{url}"{.section newWindow} target="_blank"{.end} class="Footer-nav-folder-item">{title}</a>
-          {.end}
-        {.end}
+        <li class="{.if active}active{.end}" >
+        {.section collection}
 
+            <a href="{fullUrl}" data-test="template-nav"> {navigationTitle} <span class="sr-only">(current)</span></a>
+
+        {.end}
+        {.section externalLink}
+          <a class="nav-link nv-exp" href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
+        {.end}
+        </li>
       {.end}
 
-    </div><div class="Footer-nav-group">{.or}{.section collection}<a href="{fullUrl}" class="Footer-nav-item">{navigationTitle}</a>{.end}{.end}{.end}{.section externalLink}<a href="{url}"{.section newWindow} target="_blank"{.end} class="Footer-nav-item">{title}</a>{.end}{.end}</div>
+    {.end}
 
-  </nav>
-{.end}
+      <li><a href="https://pigeon-cricket-8rlg.squarespace.com/download-app"><button>Download the App</button></a></li>
+
+  </ul>
+</nav>
