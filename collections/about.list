@@ -17,6 +17,7 @@
         </div>
 
     </section>
+<!--
     <section class="about-main-content-section">
         <div class="container">
             <div class="row">
@@ -40,7 +41,7 @@
         </div>
     </div>
 </section>
-
+-->
     <section class="download-app-section blue-download-app-section">
 	<squarespace:query collection="inner-top-footer" limit="1">
         <div class="container">
