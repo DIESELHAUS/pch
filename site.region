@@ -2464,7 +2464,7 @@
                           </section>
                           
                       </squarespace:query>
-
+                        <!--
                       <section class="hm-half-section" style="background-image:url('../assets/images/half-blue-banner.png');">
                           <div class="hm-half-section-left">
                               <img src="../assets/images/half-left.png" alt="half-image">
@@ -2489,7 +2489,7 @@
                           <div class="half-phone-section">
                               <img src="../assets/images/phone.png" alt="half-image">
                           </div>
-                      </section>
+                      </section> -->
 
                       <section class="pch-blue-banner-section center">
                               <div class="container">
