@@ -2436,7 +2436,7 @@
                                  
                       <squarespace:query collection="home-how-it-works">
                         
-                          <section class="how-it-works-section">
+                          <section class="how-it-works-section" style="display:none;">
                             {.repeated section items}
                                 <div class="container">
                                    <div class="center how-it-works-top-sec">
