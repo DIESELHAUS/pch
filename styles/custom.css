@@ -2695,6 +2695,10 @@ body .burger:hover{
 .graph-section .common-contents{
     margin-bottom: 80px;
 }
+.graph-section .common-contents h3 p {
+    font-size: 25px;
+    font-weight: 600;
+}
 .graph-section svg{
     margin-top: 50px;
     width: 100%;
