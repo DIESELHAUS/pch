@@ -148,7 +148,7 @@
                         <section class="types-of-users features">
                             <squarespace:query collection="home-section-2" limit="4">
                              <div class="common-contents center">
-                                 <h3 class="prm-clr ft-35 fw-bold">{collection.title}</h3>
+                                 <h3 class="prm-clr ft-35 fw-bold title">{collection.title}</h3>
                                  <p>{collection.description}</p>
                              </div>
                              <div class="container">
