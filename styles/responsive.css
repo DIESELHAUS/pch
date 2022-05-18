@@ -997,6 +997,7 @@
     }
     .users-left-section {
         top: -25% !important;
+        opacity: .3;
     }
     .blue-download-app-section{
         min-height: 350px;
@@ -1632,6 +1633,7 @@
     }
     .users-left-section{
         top: 19.5%;
+        opacity: .3;
     }
     .home-banner-right-sec img, .users-left-section img {
         height: 760px;
