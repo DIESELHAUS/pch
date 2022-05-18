@@ -2421,7 +2421,7 @@
                                                  
                                                      {.repeated section items}
                                                      <li>
-                                                         <h4>{title}</h4>
+                                                         <h4 class="prm-clr ft-35 fw-bold">{title}</h4>
                                                          {body}
                                                      </li>
                                                         {.end}
