@@ -1610,8 +1610,13 @@
     }
 
 }
+@media only screen and ( max-width: 1600px) and (min-width: 768px) {
+    .users-left-section{
+            display:none;
+    }
+}
 /**************************************************/
-@media ( max-width: 1200px) {
+@media ( max-width: 1800px) {
 
     .home-banner-right-sec {
         top: 150px;
@@ -1633,7 +1638,6 @@
     }
     .users-left-section{
         top: 19.5%;
-        display:none;
     }
     .home-banner-right-sec img, .users-left-section img {
         height: 760px;
