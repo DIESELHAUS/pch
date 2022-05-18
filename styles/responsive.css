@@ -1611,7 +1611,7 @@
 
 }
 /**************************************************/
-@media ( max-width: 1800px) {
+@media ( max-width: 1200px) {
 
     .home-banner-right-sec {
         top: 150px;
@@ -1633,6 +1633,7 @@
     }
     .users-left-section{
         top: 19.5%;
+        display:none;
     }
     .home-banner-right-sec img, .users-left-section img {
         height: 760px;
