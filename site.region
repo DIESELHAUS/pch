@@ -2499,7 +2499,7 @@
                                   </div>
                               </div>
                       </section>
-                      <section class="hm-testimonial-section center">
+                      <section class="hm-testimonial-section center" style="display:none;">
                           <div class="container">
                               <div class="row">
                                <squarespace:query collection="home-section-6" limit="2">
@@ -2521,7 +2521,7 @@
                           </div>
                       </section>
 
-                      <section class="download-app-section">
+                      <section class="download-app-section" style="display:none;">
                           <div class="container">
                               <div class="row">
                                   <div class="col-md-7 download-left-sec">
