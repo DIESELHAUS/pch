@@ -3,7 +3,7 @@
             <div class="row">
                 <div class="col-md-8 footer-menu">
                     <a href="https://pch-website.dieselhausdev.com/index.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
-                   <ul>
+                   <ul style="display:none;">
                     <!--<li><a href="#" class="active">Home</a></li>
                     <li><a href="#"> features</a></li>
                     <li><a href="#"> Demo</a> </li>
@@ -13,7 +13,7 @@
                 </ul>
                 </div>
                 <div class="col-md-4 social-footer-menu">
-                    <ul>
+                    <ul style="display:none;">
                         <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a></li>
                         <li><a href="#" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
                     </ul>
