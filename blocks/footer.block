@@ -1,6 +1,6 @@
 <footer>
         <div class="container">
-            <div class="row">
+            <div class="row" style="display:none;">
                 <div class="col-md-8 footer-menu">
                     <a href="https://pch-website.dieselhausdev.com/index.html"><img src="assets/images/footer-logo.png" alt="logo"></a>
                    <ul style="display:none;">
@@ -17,6 +17,11 @@
                         <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a></li>
                         <li><a href="#" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Copyright © 2023 <?php echo "2022"; ?> Players Clearinghouse, LLC  | Contact Us: <a href="mailto:info@playersclearinghouse.com">info@playersclearinghouse.com</a></p>
                 </div>
             </div>
         </div>
