@@ -21,7 +21,7 @@
             </div>
             <div class="row">
                 <div class="col-12">
-                    <p class="text-center text-white">Copyright © 2023 <?php echo "2022"; ?> Players Clearinghouse, LLC  | Contact Us: <a href="mailto:info@playersclearinghouse.com" class="text-white">info@playersclearinghouse.com</a></p>
+                    <p class="text-center text-white">Copyright © 2023 Players Clearinghouse, LLC  | Contact Us: <a href="mailto:info@playersclearinghouse.com" class="text-white">info@playersclearinghouse.com</a></p>
                 </div>
             </div>
         </div>
