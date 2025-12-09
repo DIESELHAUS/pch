@@ -2495,7 +2495,7 @@
                               <div class="container">
                                   <div class="pch-blue-banner-contents">
                                       <h3 class="prm-clr ft-35 fw-bold">One app connecting event organizers, clubs, teams, coaches, players, and parents.</h3>
-                                      <a href="#"><button>Coming Soon</button></a>
+                                      <button>Coming Soon</button>
                                   </div>
                               </div>
                       </section>
