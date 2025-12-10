@@ -1,5 +1,5 @@
 <div class="Mobile" data-nc-base="mobile-bar" data-controller="AncillaryLayout">
-  <div class="Mobile-bar Mobile-bar--top" data-nc-group="top" data-controller="MobileOffset">
+  <div class="Mobile-bar Mobile-bar--top" style="display:none;" data-nc-group="top" data-controller="MobileOffset">
 
     <div data-nc-container="top-left">
       <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
